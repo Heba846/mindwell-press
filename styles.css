@@ -187,3 +187,4 @@ blockquote footer strong { color: var(--ink); display: block; }
 .site-footer { background: var(--forest-deep); color: var(--on-dark-soft); padding: 44px 0 52px; font-size: 0.9rem; }
 .site-footer p { max-width: 82ch; }
 .site-footer a { color: var(--on-dark); }
+blockquote.reported p { font-style: italic; }
