@@ -4,18 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mindwell Press | Practical psychology books for clinicians and readers</title>
-  <meta name="description" content="Mindwell Press publishes group therapy curricula for IOP and PHP programs, and practical psychology workbooks for everyday readers.">
+  <meta name="description" content="Mindwell Press publishes group therapy curricula for IOP and PHP programs, and practical psychology workbooks for everyday readers, by Heba El Garhy.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Mindwell Press">
+  <meta property="og:description" content="Practical psychology books for the people who run the group, and the people in it.">
+  <meta property="og:image" content="https://heba846.github.io/mindwell-press/assets/starter-pack.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Spectral:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap">
-    <a class="wordmark" href="index.html">Mindwell Press</a>
+    <a class="wordmark" href="index.html">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="14" width="48" height="8" rx="2" fill="#F4F3E7"/><rect x="18" y="28" width="38" height="8" rx="2" fill="#F4F3E7"/><rect x="28" y="42" width="28" height="8" rx="2" fill="#C8825E"/></svg>
+      Mindwell Press
+    </a>
     <nav class="site-nav" aria-label="Main">
       <a href="clinicians.html">For clinicians</a>
       <a href="#readers">For readers</a>
@@ -26,73 +32,90 @@
 
 <main>
 
-  <section class="hero">
+  <section class="hero on-dark">
     <div class="wrap">
       <h1>Practical psychology books for the people who run the group, and the people in it.</h1>
-      <p class="lede">Mindwell Press publishes structured, clinically reviewed resources for mental health professionals, and warm, usable workbooks for readers working through something hard.</p>
+      <p class="lede">Structured, clinically reviewed resources for mental health professionals, and warm, usable workbooks for readers working through something hard.</p>
+      <div class="paths" style="margin-top:44px">
+        <div class="path">
+          <h2>For clinicians</h2>
+          <p>A group therapy curriculum and matching client worksheets for adult mental health IOP and PHP programs with rolling admission.</p>
+          <div class="actions" style="margin-top:18px">
+            <a class="btn btn-copper" href="clinicians.html">See the curriculum</a>
+            <a class="btn btn-line" href="https://mindwellpress.gumroad.com/l/starter-pack">Free starter pack</a>
+          </div>
+        </div>
+        <div class="path">
+          <h2>For readers</h2>
+          <p>Short, honest workbooks on breakups, relationship anxiety and ADHD, written from both study and lived experience.</p>
+          <div class="actions" style="margin-top:18px">
+            <a class="btn btn-line" href="#readers">See the books</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
-    <div class="wrap paths">
-      <div class="path">
-        <h2>For clinicians</h2>
-        <p>A group therapy curriculum and matching client worksheets for adult mental health IOP and PHP programs with rolling admission.</p>
-        <div class="actions" style="margin-top:20px">
-          <a class="btn btn-primary" href="clinicians.html">See the curriculum</a>
-        </div>
-      </div>
-      <div class="path" id="readers">
-        <h2>For readers</h2>
-        <p>The Relationship Recovery Workbook Series: short, honest workbooks written from both study and lived experience.</p>
-        <div class="actions" style="margin-top:20px">
-          <a class="btn btn-quiet" href="#series">See the workbooks</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section panel" id="series">
+  <section class="section cream" id="readers">
     <div class="wrap">
       <div class="section-head">
-        <h2>The Relationship Recovery Workbook Series</h2>
-        <p>Each workbook stands alone. They're written to be on your side, with exercises you can actually do on a bad evening.</p>
+        <h2>Books for readers</h2>
+        <p>Each one is written to be on your side, with exercises you can actually do on a hard evening.</p>
       </div>
-      <div class="books">
-        <article class="book">
-          <div class="cover reader" aria-hidden="true">
-            <span class="cover-series">Relationship Recovery Workbook Series</span>
-            <span class="cover-title">The Unwanted Breakup Recovery Workbook</span>
-            <span class="cover-author">Heba El Garhy</span>
-          </div>
-          <div>
-            <h3>The Unwanted Breakup Recovery Workbook</h3>
-            <p class="sub">For the breakup you didn't choose: making sense of what happened, getting through the hardest days, and rebuilding at your own pace.</p>
-            <div class="buy">
-              <!-- REPLACE: direct Amazon product URL -->
-              <a class="btn btn-primary" href="https://www.amazon.com/s?k=The+Unwanted+Breakup+Recovery+Workbook+Heba+El+Garhy">Find it on Amazon</a>
-            </div>
-          </div>
+      <div class="shelf">
+        <article>
+          <img class="cover-img" src="https://m.media-amazon.com/images/I/71GtmlkPFpL._SL600_.jpg" alt="Cover of The Unwanted Breakup Recovery Workbook" loading="lazy">
+          <h3>The Unwanted Breakup Recovery Workbook</h3>
+          <p>30 days of practical steps for grief, self-worth and life after a separation you didn't choose.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HMQ2VBCH">Paperback on Amazon</a></div>
         </article>
-        <article class="book">
-          <div class="cover reader alt" aria-hidden="true">
-            <span class="cover-series">Relationship Recovery Workbook Series</span>
-            <span class="cover-title">Anxious Attachment Workbook for Women</span>
-            <span class="cover-author">Heba El Garhy</span>
-          </div>
-          <div>
-            <h3>Anxious Attachment Workbook for Women</h3>
-            <p class="sub">For women who feel the pull of anxious attachment in relationships: understanding the pattern and practicing steadier ways to respond.</p>
-            <div class="buy">
-              <p class="note">Coming soon</p>
-            </div>
-          </div>
+        <article>
+          <img class="cover-img" src="https://m.media-amazon.com/images/I/61mD-I51t5L._SL600_.jpg" alt="Cover of Anxious Attachment Workbook for Women" loading="lazy">
+          <h3>Anxious Attachment Workbook for Women</h3>
+          <p>Practical exercises for relationship anxiety and building self-trust.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HMSLYH3S">Paperback on Amazon</a></div>
+        </article>
+        <article>
+          <img class="cover-img" src="https://m.media-amazon.com/images/I/71EXXugxTTL._SL600_.jpg" alt="Cover of My Brain Has Its Own Speed" loading="lazy">
+          <h3>My Brain Has Its Own Speed</h3>
+          <p>A story-and-activity book for kids with ADHD, ages 7 to 10. Also in German: <a href="https://www.amazon.com/dp/B0HML85DRL"><i>Mein Gehirn hat sein eigenes Tempo</i></a>.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HMGVQPVX">Hardcover</a><a href="https://www.amazon.com/dp/B0HN6W1G66">Paperback</a></div>
+        </article>
+        <article>
+          <img class="cover-img" src="https://m.media-amazon.com/images/I/51wJLU66Y8L._SL600_.jpg" alt="Cover of Sudoku for a Busy Mind" loading="lazy">
+          <h3>Sudoku for a Busy Mind</h3>
+          <p>60 calming puzzles in sets of ten for ADHD, anxious and overthinking minds, with a workspace page beside every puzzle.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HKQ7VNNS">Paperback on Amazon</a></div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section" id="about">
+  <section class="section" id="clinical">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>For clinicians: The Open-Enrollment Program Series</h2>
+        <p>A group therapy curriculum for adult mental health IOP and PHP programs where someone new can walk in on any day.</p>
+      </div>
+      <div class="shelf" style="grid-template-columns:repeat(auto-fill,minmax(220px,260px))">
+        <article>
+          <img class="cover-img" src="assets/vol1-cover.jpg" alt="Cover of Mental Health Group Therapy Curriculum for IOP and PHP" loading="lazy">
+          <h3>Volume 1: Mental Health Group Therapy Curriculum for IOP and PHP</h3>
+          <p>82 group sessions for facilitators.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HKWVG9K7">Paperback</a><a href="https://www.amazon.com/dp/B0HLBDH3GF">Hardcover</a></div>
+        </article>
+        <article>
+          <img class="cover-img" src="https://m.media-amazon.com/images/I/618T6wzFJVL._SL600_.jpg" alt="Cover of Mental Health Group Therapy Worksheets for Adults" loading="lazy">
+          <h3>Volume 2: Mental Health Group Therapy Worksheets for Adults</h3>
+          <p>78 reproducible client worksheets.</p>
+          <div class="links"><a href="https://www.amazon.com/dp/B0HL9CJKZF">Paperback</a><a href="https://www.amazon.com/dp/B0HL9N719X">Hardcover</a></div>
+        </article>
+      </div>
+      <div class="actions"><a class="btn btn-forest" href="clinicians.html">More about the curriculum</a></div>
+    </div>
+  </section>
+
+  <section class="section cream" id="about">
     <div class="wrap author">
       <h2>About Mindwell Press</h2>
       <p style="margin-top:20px">Mindwell Press is the publishing imprint of Heba El Garhy, a behavioral health author and researcher with a background in biotechnology, clinical sciences and applied psychology. She is pursuing postgraduate studies in Psychology at Cairo University and holds professional diplomas in educational psychology, counseling and human development.</p>
@@ -105,7 +128,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>Mindwell Press books are educational resources. They are not a diagnostic tool or a substitute for professional treatment. If you are in crisis in the US, call or text 988.</p>
-    <p>© 2026 Mindwell Press · Heba El Garhy</p>
+    <p>© 2026 Mindwell Press · Heba El Garhy · <a href="https://mindwellpress.gumroad.com">Gumroad store</a></p>
   </div>
 </footer>
 
