@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cards/
+
+Sitemap: https://thoughtkindpress.com/sitemap.xml

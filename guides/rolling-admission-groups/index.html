@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Run a Rolling-Admission Therapy Group (IOP &amp; PHP Guide)</title>
+  <meta name="description" content="Run an open-enrollment therapy group where new members join every week: the 3-minute Newcomer Bridge, first-time and returning prompts, and documentation.">
+  <link rel="canonical" href="https://thoughtkindpress.com/guides/rolling-admission-groups/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Thoughtkind Press">
+  <meta property="og:title" content="How to Run a Rolling-Admission Therapy Group (IOP &amp; PHP Guide)">
+  <meta property="og:description" content="Run an open-enrollment therapy group where new members join every week: the 3-minute Newcomer Bridge, first-time and returning prompts, and documentation.">
+  <meta property="og:url" content="https://thoughtkindpress.com/guides/rolling-admission-groups/">
+  <meta property="og:image" content="https://thoughtkindpress.com/assets/starter-pack.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://thoughtkindpress.com/#org",
+   "name": "Thoughtkind Press",
+   "url": "https://thoughtkindpress.com/",
+   "logo": "https://thoughtkindpress.com/favicon.svg",
+   "email": "hello@thoughtkindpress.com",
+   "founder": {
+    "@id": "https://thoughtkindpress.com/about/#heba"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://thoughtkindpress.com/about/#heba",
+   "name": "Heba El Garhy",
+   "url": "https://thoughtkindpress.com/about/",
+   "jobTitle": "Author and publisher",
+   "description": "Behavioral health author and researcher with a background in biotechnology, clinical sciences and applied psychology.",
+   "knowsAbout": [
+    "Group therapy facilitation",
+    "Intensive outpatient programs",
+    "Partial hospitalization programs",
+    "Dialectical behavior therapy skills",
+    "Cognitive behavioral therapy",
+    "Clinical documentation"
+   ],
+   "worksFor": {
+    "@id": "https://thoughtkindpress.com/#org"
+   }
+  },
+  {
+   "@type": "Article",
+   "@id": "https://thoughtkindpress.com/guides/rolling-admission-groups/#article",
+   "headline": "How to Run a Rolling-Admission Therapy Group",
+   "description": "A facilitator's guide to open-enrollment groups in IOP and PHP programs.",
+   "author": {
+    "@id": "https://thoughtkindpress.com/about/#heba"
+   },
+   "publisher": {
+    "@id": "https://thoughtkindpress.com/#org"
+   },
+   "datePublished": "2026-10-19",
+   "dateModified": "2026-10-19",
+   "mainEntityOfPage": "https://thoughtkindpress.com/guides/rolling-admission-groups/",
+   "inLanguage": "en",
+   "image": "https://thoughtkindpress.com/assets/starter-pack.jpg",
+   "about": [
+    "Open-enrollment group therapy",
+    "Intensive outpatient programs",
+    "Partial hospitalization programs"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://thoughtkindpress.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://thoughtkindpress.com/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Rolling-admission groups",
+     "item": "https://thoughtkindpress.com/guides/rolling-admission-groups/"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="14" width="48" height="8" rx="2" fill="#F4F3E7"/><rect x="18" y="28" width="38" height="8" rx="2" fill="#F4F3E7"/><rect x="28" y="42" width="28" height="8" rx="2" fill="#C8825E"/></svg>
+      Thoughtkind Press
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/clinicians.html">For clinicians</a>
+      <a href="/#readers">For readers</a>
+      <a href="/free-resources/">Free resources</a>
+      <a href="/guides/" aria-current="page">Guides</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <article class="section">
+    <div class="wrap prose">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / <span aria-current="page">Rolling-admission groups</span></nav>
+      <h1>How to run a rolling-admission therapy group</h1>
+      <p class="byline">By <a href="/about/">Heba El Garhy</a> · Published October 19, 2026 · <a href="/about/#editorial">Editorial standards</a></p>
+      <p class="lede-ink">In a rolling-admission program, today's group might hold a member on their first day, three in their second week, and one stepping down on Thursday. This guide covers how to run a session that works for all of them, without re-teaching the basics every time or leaving the newest member lost.</p>
+
+      <nav class="toc" aria-label="On this page">
+        <p><strong>On this page</strong></p>
+        <ol>
+          <li><a href="#what">What rolling admission means for a group</a></li>
+          <li><a href="#why">Why cohort curricula break</a></li>
+          <li><a href="#rotation">Run a rotation, not a sequence</a></li>
+          <li><a href="#bridge">Open every session with a 3-minute Newcomer Bridge</a></li>
+          <li><a href="#tiers">Ask two levels of question in one room</a></li>
+          <li><a href="#done-this">When returning members say "we've done this already"</a></li>
+          <li><a href="#orientation">Orientation, tracking and step-down</a></li>
+          <li><a href="#documentation">Documenting a mixed-tenure group</a></li>
+          <li><a href="#limits">What the rotation does not decide</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="what">What rolling admission means for a group</h2>
+      <p>Rolling admission (also called open enrollment or continuous entry) means a program admits people when they need care rather than waiting to fill a cohort. Federal treatment guidance for intensive outpatient care lists easing entry as a core principle and says programs should aim to make the first appointment available on demand. Programs that kept their groups open to new members have reported shorter waits between assessment and treatment, according to case examples collected by NIATX at the University of Wisconsin.</p>
+      <p>The trade-off lands on the facilitator. Any given group holds people at very different points in treatment on the same day.</p>
+
+      <h2 id="why">Why cohort curricula break</h2>
+      <p>Most group curricula are written for a cohort that starts in week 1 and finishes in week 12 together. Run one under rolling admission and three things tend to happen:</p>
+      <ol>
+        <li><strong>You re-teach the basics</strong> every time someone joins, and members who have covered them lose interest.</li>
+        <li><strong>You skip ahead</strong> to keep pace with the printed schedule, and new members are lost.</li>
+        <li><strong>You improvise,</strong> because no single printed session fits a day-one and a day-thirty member.</li>
+      </ol>
+      <p>None of these is a facilitator failure. They are the predictable result of using a cohort-shaped tool for a rolling-admission job.</p>
+
+      <h2 id="rotation">Run a rotation, not a sequence</h2>
+      <p>A sequence has a fixed order that assumes everyone starts together. A rotation is a cycle that repeats, and a member can join it on any turn, like a book club that discusses whatever chapter is next rather than requiring everyone to start the book on the same day. Eventually the group cycles back to what a member missed.</p>
+      <p>For a rotation to work, <strong>no session can depend on an earlier one.</strong> Each session needs its own short orientation, its own teaching points and its own practice, so it delivers something complete to anyone in the room.</p>
+
+      <h2 id="bridge">Open every session with a 3-minute Newcomer Bridge</h2>
+      <p>The Newcomer Bridge is a short scripted opening that orients someone in the room for the first time and re-grounds everyone else before the session builds on the idea. It has three parts:</p>
+      <ol>
+        <li><strong>Name the session's one idea in a sentence.</strong> "Today we're looking at how to check whether an emotion fits the facts of a situation."</li>
+        <li><strong>Ask a 60-second recall question of the group generally.</strong> "For anyone who's done this before: in one sentence, what's this skill for?" Anyone can answer, and no one has to.</li>
+        <li><strong>State the ground rule.</strong> What will happen in the session, and that any prompt can be passed.</li>
+      </ol>
+      <blockquote class="script"><p>"Welcome, everyone. If this is your first group with us, welcome. You don't need to have been here before for any of this to be useful today. Today we're working on [skill]. [One-sentence description.] If you've worked on this before, feel free to share in a sentence what it's about for you. And as always, any question or activity today, you're welcome to pass."</p></blockquote>
+      <p>Run the Bridge every time, even when everyone in the room has done the session before. It costs three minutes and lets the rest of the session work for anyone, whenever they started. It does not replace a proper first-day orientation (see below).</p>
+
+      <h2 id="tiers">Ask two levels of question in one room</h2>
+      <p>A mixed-tenure group holds people meeting an idea for the first time next to people meeting it for the second or third time. Write two tiers of processing question for every session:</p>
+      <ul>
+        <li><strong>First time:</strong> questions about understanding and noticing. "Where might this skill have helped you this week?"</li>
+        <li><strong>Returning:</strong> questions about applying it now, or explaining it in their own words. "You've worked with this skill before. What has it looked like for you this week?"</li>
+      </ul>
+      <p>You rarely need to track who gets which tier. Open a question to the room and the answers usually sort themselves: newer members answer at the first-time level, and returning members often go further on their own. When that doesn't happen, direct a returning question to someone by name, without ranking members by experience.</p>
+      <p>Some programs invite, but never assign, a returning member to demonstrate an example or pair with a newer member during practice. The member can decline without explanation, and the facilitator stays responsible for the group throughout.</p>
+
+      <h2 id="done-this">When returning members say "we've done this already"</h2>
+      <p>This is the most predictable friction point in an open group, and the newest member often goes quiet while it happens. A first response that takes the concern seriously without defending the schedule:</p>
+      <blockquote class="script"><p>"You've heard this before, and you want the time to be useful. I'll explain what is repeated and what can be different."</p></blockquote>
+      <p>Then follow what actually happens. If a member wants more challenge, offer a harder application of the same skill rather than extra busywork. If someone starts instructing peers, return to one speaker at a time. If someone needs the basics, keep the explanation available without making them disclose personal history. And if anything suggests urgent harm or a clinical change, pause the lesson for your program's assessment or emergency procedure; do not finish the task first.</p>
+      <p>This is Scenario 20 in <a href="/books/when-group-gets-stuck/">When Group Gets Stuck</a>, and its card is in the <a href="/free-resources/">free sample</a>.</p>
+
+      <h2 id="orientation">Orientation, tracking and step-down</h2>
+      <ul>
+        <li><strong>Orient before the first group.</strong> A Bridge is not orientation. Each new member should get a short individual or small-group orientation covering program structure, group norms and crisis resources before or at their first group, not squeezed into the first three minutes of a session.</li>
+        <li><strong>Let members track their own progress.</strong> A simple client-held record of completed sessions shows the member what they have covered and shows any facilitator, at a glance, what they haven't. It helps when staff rotate or attendance is irregular.</li>
+        <li><strong>Plan for leaving mid-rotation.</strong> Most members step down before completing a full cycle. Use their record at step-down to give short catch-up pages on what they missed, so nothing is simply dropped.</li>
+      </ul>
+
+      <h2 id="documentation">Documenting a mixed-tenure group</h2>
+      <p>Record what you observed and delivered: the skill taught, the practice offered, and each member's stated or observed response. Familiarity is not mastery. A returning member who says they know the skill has reported familiarity; record practice only when it was demonstrated or reported, and say which. Keep other members' identities and disclosures out of an individual's note, and adapt all wording to your program's requirements and payer rules.</p>
+
+      <h2 id="limits">What the rotation does not decide</h2>
+      <p>A rotation decides which topic is taught when. It does not decide who is ready for group, what level of care someone needs or when they should step down. Those are clinical decisions for the treatment team, made through the program's own assessment and treatment-planning process.</p>
+
+      <div class="callout">
+        <h2>Get three complete rolling-admission sessions free</h2>
+        <p>The Rolling-Admission Group Starter Pack includes a Process, a Skills and a Psychoeducation session, each with its Newcomer Bridge and client worksheet.</p>
+        <p><a class="btn btn-forest" href="/free-resources/">See free resources</a> <a class="btn btn-line-ink" href="/clinicians.html">The full curriculum</a></p>
+      </div>
+
+      <h2 id="sources">Sources</h2>
+      <ul class="sources">
+        <li>Center for Substance Abuse Treatment. (2006). <i>Substance Abuse: Clinical Issues in Intensive Outpatient Treatment</i> (TIP 47), Chapter 2, Principles of Intensive Outpatient Treatment. <a href="https://www.ncbi.nlm.nih.gov/books/NBK64087/">NCBI Bookshelf</a></li>
+        <li>NIATX, University of Wisconsin–Madison. Offer Groups that Remain Open to New Members. <a href="https://niatx.wisc.edu/promising-practices/offer-groups-that-remain-open-to-new-members/">niatx.wisc.edu</a></li>
+        <li>Yalom, I. D., &amp; Leszcz, M. (2020). <i>The Theory and Practice of Group Psychotherapy</i> (6th ed.). Basic Books.</li>
+        <li>Linehan, M. M. (2015). <i>DBT Skills Training Manual</i> (2nd ed.). Guilford Press.</li>
+      </ul>
+      <p class="fineprint">This guide is educational. It does not replace clinical training, supervision or your program's policies and emergency procedures. Adapted from <i>Mental Health Group Therapy Curriculum for IOP and PHP</i> (Volume 1 of the Open-Enrollment Program Series) and <i>When Group Gets Stuck</i>.</p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Thoughtkind Press books are educational and program-implementation resources. They do not replace clinical training, supervision, clinical judgment or your program's policies, and they are not a diagnostic tool or a substitute for treatment. If you are in crisis in the US, call or text 988.</p>
+    <p>© 2026 Thoughtkind Press · Heba El Garhy · <a href="mailto:hello@thoughtkindpress.com">hello@thoughtkindpress.com</a> · <a href="/about/#editorial">Editorial standards</a> · <a href="/free-resources/">Free resources</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

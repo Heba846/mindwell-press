@@ -198,3 +198,36 @@ blockquote.reported p { font-style: italic; }
 .cover-ph span { font-weight: 900; font-size: 1.45rem; line-height: 1.15; }
 .cover-ph small { color: var(--copper); font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.78rem; }
 .book .cover-ph { margin-bottom: 0; }
+
+/* ---------- Content pages (guides, about, resources) ---------- */
+.wrap.prose { max-width: 1140px; }
+.prose .callout, .prose .toc { max-width: calc(var(--measure) + 48px); }
+.prose h2 { margin-top: 44px; }
+.prose h2:first-of-type { margin-top: 36px; }
+.prose p, .prose li { max-width: var(--measure); }
+.prose ol, .prose ul { padding-left: 1.3em; }
+.prose li { margin-bottom: 8px; }
+.lede-ink { font-size: 1.2rem; color: var(--ink-soft); margin-top: 14px; }
+.byline { color: var(--ink-soft); font-size: 0.92rem; margin-top: 10px; }
+.crumbs { font-size: 0.88rem; color: var(--ink-soft); margin-bottom: 18px; }
+.crumbs a { color: var(--ink-soft); }
+.on-dark-crumbs, .on-dark-crumbs a { color: var(--on-dark-soft); }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; font-weight: 800; color: var(--copper); margin-bottom: 10px; }
+.toc { background: var(--cream); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 22px; margin: 30px 0; }
+.toc ol { margin: 8px 0 0; }
+.toc li { margin-bottom: 4px; }
+blockquote.script { margin: 20px 0; }
+blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
+.callout { background: var(--cream); border-left: 4px solid var(--copper); padding: 6px 24px 22px; margin: 44px 0 20px; border-radius: 4px; }
+.callout h2 { margin-top: 18px !important; }
+.callout .btn { margin: 4px 8px 4px 0; }
+.btn-line-ink { border-color: var(--forest); color: var(--forest); background: transparent; }
+.sources li { font-size: 0.95rem; }
+.sit-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 26px 30px; }
+.sit-group h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--copper-ink); }
+.sit-group ul { margin: 0; padding-left: 1.1em; }
+.sit-group li { margin-bottom: 4px; }
+.res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 24px; }
+.res { background: #fff; border: 1px solid var(--rule); border-radius: 6px; padding: 24px; }
+.res h2 { font-size: 1.3rem; margin: 6px 0 10px; }
+.res .series { font-size: 0.85rem; color: var(--ink-soft); font-weight: 700; }
