@@ -1,4 +1,4 @@
-/* Mindwell Press — shared styles. Palette and type follow the book covers and interiors. */
+/* Thoughtkind Press — shared styles. Palette and type follow the book covers and interiors. */
 :root {
   --forest: #2D3D32;
   --forest-deep: #233027;
@@ -188,3 +188,13 @@ blockquote footer strong { color: var(--ink); display: block; }
 .site-footer p { max-width: 82ch; }
 .site-footer a { color: var(--on-dark); }
 blockquote.reported p { font-style: italic; }
+
+/* ---------- Cover placeholder (books not yet released) ---------- */
+.cover-ph {
+  aspect-ratio: 8.5 / 11; max-width: 230px; width: 100%; background: var(--forest); color: var(--on-dark);
+  border-radius: 4px; padding: 22px 18px; display: flex; flex-direction: column; justify-content: space-between;
+  box-shadow: 0 10px 24px rgba(31, 42, 35, 0.18); margin-bottom: 18px;
+}
+.cover-ph span { font-weight: 900; font-size: 1.45rem; line-height: 1.15; }
+.cover-ph small { color: var(--copper); font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.78rem; }
+.book .cover-ph { margin-bottom: 0; }
