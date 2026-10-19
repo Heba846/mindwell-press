@@ -231,3 +231,6 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .res { background: #fff; border: 1px solid var(--rule); border-radius: 6px; padding: 24px; }
 .res h2 { font-size: 1.3rem; margin: 6px 0 10px; }
 .res .series { font-size: 0.85rem; color: var(--ink-soft); font-weight: 700; }
+.on-dark .fineprint, .on-dark-fine { color: var(--on-dark-soft); margin-top: 18px; }
+.on-dark .fineprint a { color: var(--on-dark); text-decoration: underline; text-underline-offset: 3px; }
+#formats .features dd a { font-weight: 700; white-space: nowrap; }
