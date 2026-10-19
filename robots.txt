@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /cards/
+Disallow: /resources/when-group-gets-stuck/
 
 Sitemap: https://thoughtkindpress.com/sitemap.xml
