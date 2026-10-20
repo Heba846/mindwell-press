@@ -146,6 +146,7 @@ p { margin: 0 0 1em; max-width: var(--measure); }
 .shelf { display: grid; gap: 40px 28px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 .shelf article { display: flex; flex-direction: column; }
 .shelf .cover-img { max-width: 100%; aspect-ratio: auto; margin-bottom: 18px; }
+.shelf.uniform .cover-img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; }
 .shelf h3 { font-size: 1.08rem; line-height: 1.3; }
 .shelf p { font-size: 0.95rem; color: var(--ink-soft); margin: 8px 0 14px; }
 .shelf .links { margin-top: auto; display: flex; gap: 14px; flex-wrap: wrap; font-weight: 800; font-size: 0.95rem; }
