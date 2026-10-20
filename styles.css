@@ -142,6 +142,9 @@ p { margin: 0 0 1em; max-width: var(--measure); }
 .facts li::before { content: ""; position: absolute; left: 0; top: 0.75em; width: 9px; height: 2px; background: var(--copper); }
 .buy { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 
+/* WGGS cover is taller (600x960) than Vol 1/2 (about 700x906); scale it so all covers share one height */
+.cover-img[src*="wggs-cover"] { width: 80.9%; }
+
 /* Reader shelf */
 .shelf { display: grid; gap: 40px 28px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 .shelf article { display: flex; flex-direction: column; }
