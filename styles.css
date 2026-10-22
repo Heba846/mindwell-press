@@ -160,6 +160,40 @@ blockquote footer { color: var(--ink-soft); font-size: 0.95rem; }
 blockquote footer strong { color: var(--ink); display: block; }
 .fineprint { font-size: 0.85rem; color: var(--ink-soft); margin-top: 30px; }
 
+/* Testimonial cards */
+.quote-cards { display: grid; gap: 24px; align-items: stretch; }
+@media (min-width: 860px) { .quote-cards { grid-template-columns: 1fr 1fr; gap: 28px; } }
+.quote-card {
+  margin: 0; display: flex; flex-direction: column; background: #fff; color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 8px; padding: 30px 30px 26px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03), 0 22px 40px -30px rgba(31,42,35,0.5);
+}
+.quote-card::before {
+  content: "\201C"; font-family: var(--serif); font-size: 4.6rem; line-height: 1; height: 0.62em;
+  color: var(--copper); display: block; margin-bottom: 8px;
+}
+.quote-card blockquote { border: 0; padding: 0; margin: 0 0 24px; }
+.quote-card blockquote p { font-family: var(--serif); font-size: 1.16rem; line-height: 1.6; max-width: none; margin: 0; }
+.quote-person { display: flex; align-items: center; gap: 14px; margin-top: auto; padding-top: 20px; border-top: 1px solid var(--rule); font-size: 0.92rem; color: var(--ink-soft); line-height: 1.45; }
+.quote-person strong { display: block; color: var(--ink); font-size: 1rem; }
+.avatar {
+  flex: none; width: 54px; height: 54px; border-radius: 50%; overflow: hidden;
+  display: grid; place-items: center; background: var(--forest); color: var(--on-dark);
+  font-weight: 800; font-size: 1rem; letter-spacing: 0.04em; box-shadow: 0 0 0 3px var(--cream);
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.quote-card.dark { background: var(--forest); color: var(--on-dark); border-color: var(--forest); }
+.quote-card.dark .quote-person { border-top-color: var(--rule-dark); color: var(--on-dark-soft); }
+.quote-card.dark .quote-person strong { color: var(--on-dark); }
+.quote-card.dark .avatar { background: var(--copper); color: var(--forest-deep); box-shadow: 0 0 0 3px var(--forest-deep); }
+
+/* Sources strip under testimonials */
+.grounded { margin-top: 34px; padding: 22px 26px; background: var(--cream); border-radius: 6px; }
+.grounded .eyebrow { color: var(--copper-ink); margin-bottom: 12px; }
+.grounded ul { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-wrap: wrap; gap: 8px 10px; }
+.grounded li { background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 6px 14px; font-size: 0.92rem; font-weight: 600; }
+.grounded p:last-child { margin: 0; font-size: 0.92rem; color: var(--ink-soft); }
+
 /* ---------- Starter pack ---------- */
 .pack { display: grid; grid-template-columns: minmax(0, 1fr); gap: 44px; align-items: center; }
 @media (min-width: 900px) { .pack { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
@@ -188,7 +222,6 @@ blockquote footer strong { color: var(--ink); display: block; }
 .site-footer { background: var(--forest-deep); color: var(--on-dark-soft); padding: 44px 0 52px; font-size: 0.9rem; }
 .site-footer p { max-width: 82ch; }
 .site-footer a { color: var(--on-dark); }
-blockquote.reported p { font-style: italic; }
 
 /* ---------- Cover placeholder (books not yet released) ---------- */
 .cover-ph {
