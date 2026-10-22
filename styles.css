@@ -326,3 +326,27 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .hero-book { display: grid; gap: 40px; align-items: center; }
 @media (min-width: 900px) { .hero-book { grid-template-columns: minmax(0, 1fr) 260px; gap: 64px; } }
 .hero-cover { width: 100%; max-width: 260px; height: auto; border-radius: 3px 6px 6px 3px; box-shadow: 0 30px 50px -24px rgba(0,0,0,0.6); }
+
+/* Slide-in email signup */
+.sub-pop {
+  position: fixed; z-index: 50; right: 24px; bottom: 24px; width: min(380px, calc(100vw - 32px));
+  background: var(--forest-deep); color: var(--on-dark); border-radius: 10px; padding: 22px 22px 20px;
+  box-shadow: 0 24px 60px -20px rgba(0,0,0,0.55); border-top: 4px solid var(--copper);
+  transform: translateY(24px); opacity: 0; transition: transform .3s ease, opacity .3s ease;
+}
+.sub-pop.is-in { transform: none; opacity: 1; }
+.sub-pop[hidden] { display: none; }
+.sub-pop-close {
+  position: absolute; top: 8px; right: 10px; width: 36px; height: 36px; border: 0; background: transparent;
+  color: var(--on-dark-soft); font-size: 1.6rem; line-height: 1; cursor: pointer; border-radius: 50%;
+}
+.sub-pop-close:hover { color: var(--on-dark); background: var(--forest); }
+.sub-pop-eyebrow { margin: 0 0 6px; color: var(--copper); font-weight: 800; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.sub-pop-title { margin: 0 32px 8px 0; font-weight: 900; font-size: 1.25rem; line-height: 1.2; }
+.sub-pop-text { margin: 0 0 14px; color: var(--on-dark-soft); font-size: 0.95rem; }
+.sub-pop .subscribe-form input[type=email] { flex-basis: 160px; }
+@media (max-width: 600px) {
+  .sub-pop { right: 16px; left: 16px; bottom: 16px; width: auto; padding: 18px 18px 16px; }
+  .sub-pop-text { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .sub-pop { transition: none; } }
