@@ -134,7 +134,11 @@
 
   <div class="deal-banner" data-start="2026-10-26T15:00:00Z" data-end="2026-11-02T15:00:00Z" hidden>
     <div class="wrap">
-      <p><strong>Kindle deal this week:</strong> Volume 1 of the curriculum is <strong>$0.99</strong> on Amazon.com until November 2. <a href="https://www.amazon.com/dp/B0HKWTYYRS">Get the Kindle edition</a></p>
+      <div class="deal-inner">
+        <span class="deal-tag">Kindle deal · this week only</span>
+        <p class="deal-text">Volume 1, the full 82-session curriculum: <s>$9.99</s> <strong>$0.99</strong> on Amazon.com until November 2</p>
+        <a class="deal-btn" href="https://www.amazon.com/dp/B0HKWTYYRS" rel="noopener">Get it for $0.99</a>
+      </div>
     </div>
   </div>
   <script>
@@ -219,7 +223,7 @@
       </div>
       <div class="books">
         <article class="book">
-          <img class="cover-img" src="assets/vol1-cover.jpg" width="230" height="298" alt="Cover of Mental Health Group Therapy Curriculum for IOP and PHP, Volume 1">
+          <img class="cover-img" src="/assets/covers/vol1-curriculum.jpg" width="700" height="1120" alt="Cover of Mental Health Group Therapy Curriculum for IOP and PHP, Volume 1">
           <div>
             <p class="series">Volume 1 · For facilitators</p>
             <h3>Mental Health Group Therapy Curriculum for IOP and PHP</h3>
@@ -238,7 +242,7 @@
         </article>
 
         <article class="book">
-          <img class="cover-img" src="https://m.media-amazon.com/images/I/618T6wzFJVL._SL600_.jpg" width="230" height="297" alt="Cover of Mental Health Group Therapy Worksheets for Adults, Volume 2" loading="lazy">
+          <img class="cover-img" src="/assets/covers/vol2-worksheets.jpg" width="700" height="1120" alt="Cover of Mental Health Group Therapy Worksheets for Adults, Volume 2" loading="lazy">
           <div>
             <p class="series">Volume 2 · For clients</p>
             <h3>Mental Health Group Therapy Worksheets for Adults</h3>
@@ -291,7 +295,7 @@
         <p>A practical response guide for the moments that derail adult IOP and PHP skills groups, written for the facilitator who can't leave the room. <a href="/books/when-group-gets-stuck/">See all 39 situations and download a free sample</a>.</p>
       </div>
       <article class="book">
-        <img class="cover-img" src="/assets/wggs/wggs-cover-shelf.jpg" alt="Cover of When Group Gets Stuck" loading="lazy" width="700" height="906">
+        <img class="cover-img" src="/assets/covers/vol3-when-group-gets-stuck.jpg" width="700" height="1120" alt="Cover of When Group Gets Stuck, Volume 3 of the Open-Enrollment Program Series" loading="lazy">
         <div>
           <p class="series">Response guide · For facilitators, trainees and supervisors</p>
           <h3>When Group Gets Stuck: A Practical Response Guide for Adult IOP and PHP Skills Groups</h3>
@@ -387,8 +391,13 @@
       <p>Free printables, new facilitator guides and release news for the Open-Enrollment Program Series. Occasional emails, unsubscribe anytime.</p>
     </div>
     <div class="subscribe-action">
-      <a class="btn btn-copper" href="https://thoughtkindpress.gumroad.com/" rel="noopener">Subscribe for free</a>
-      <p class="subscribe-note">Opens our Gumroad page. Enter your email there and select Subscribe.</p>
+      <form class="subscribe-form" action="https://gumroad.com/follow_from_embed_form" method="post">
+        <input type="hidden" name="seller_id" value="815120777025">
+        <label class="visually-hidden" for="subscribe-email">Email address</label>
+        <input id="subscribe-email" type="email" name="email" required autocomplete="email" placeholder="you@program.org">
+        <button class="btn btn-copper" type="submit">Subscribe</button>
+      </form>
+      <p class="subscribe-note">Free. Delivered by Gumroad. See our <a href="/privacy/">privacy policy</a>.</p>
     </div>
   </div>
 </section>
