@@ -301,3 +301,12 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .deal-banner p { margin: 0; padding: 12px 0; max-width: none; font-size: 0.98rem; line-height: 1.45; }
 .deal-banner a { color: var(--forest-deep); font-weight: 800; white-space: nowrap; }
 .deal-banner a:hover { color: var(--forest-deep); text-decoration-thickness: 2px; }
+
+/* Email subscribe band (above footer) */
+.subscribe { background: var(--forest); color: var(--on-dark); padding: 56px 0; border-bottom: 1px solid var(--rule-dark); }
+.subscribe-inner { display: grid; gap: 24px; align-items: center; }
+@media (min-width: 860px) { .subscribe-inner { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 48px; } }
+.subscribe h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); max-width: 26ch; }
+.subscribe p { color: var(--on-dark-soft); margin: 12px 0 0; }
+.subscribe-action .btn { font-size: 1.05rem; }
+.subscribe-note { font-size: 0.85rem; margin-top: 10px !important; }
