@@ -132,6 +132,19 @@
 
 <main>
 
+  <div class="deal-banner" data-start="2026-10-26T15:00:00Z" data-end="2026-11-02T15:00:00Z" hidden>
+    <div class="wrap">
+      <p><strong>Kindle deal this week:</strong> Volume 1 of the curriculum is <strong>$0.99</strong> on Amazon.com until November 2. <a href="https://www.amazon.com/dp/B0HKWTYYRS">Get the Kindle edition</a></p>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var b = document.querySelector('.deal-banner'); if (!b) return;
+    var now = Date.now(), s = Date.parse(b.dataset.start), e = Date.parse(b.dataset.end);
+    if ((now >= s && now < e) || /[?&]deal=preview/.test(location.search)) b.hidden = false;
+  })();
+  </script>
+
   <section class="hero on-dark">
     <div class="wrap hero-grid">
       <div>
