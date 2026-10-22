@@ -350,3 +350,5 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
   .sub-pop-text { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .sub-pop { transition: none; } }
+.subscribe-btn { font-size: 1.1rem; padding: 15px 28px; }
+.sub-pop-btn { display: block; text-align: center; }

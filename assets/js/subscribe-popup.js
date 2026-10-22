@@ -18,12 +18,7 @@
     '<p class="sub-pop-eyebrow">Free for group facilitators</p>' +
     '<p class="sub-pop-title" id="sub-pop-title">New tools for your next group, by email</p>' +
     '<p class="sub-pop-text">Printables, facilitator guides and release news. Occasional emails, unsubscribe anytime.</p>' +
-    '<form class="subscribe-form" action="https://gumroad.com/follow_from_embed_form" method="post" target="_blank">' +
-      '<input type="hidden" name="seller_id" value="815120777025">' +
-      '<label class="visually-hidden" for="sub-pop-email">Email address</label>' +
-      '<input id="sub-pop-email" type="email" name="email" required autocomplete="email" placeholder="you@program.org">' +
-      '<button class="btn btn-copper" type="submit">Subscribe</button>' +
-    '</form>';
+    '<a class="btn btn-copper sub-pop-btn" href="https://thoughtkindpress.gumroad.com/subscribe" target="_blank" rel="noopener">Subscribe for free</a>';
   document.body.appendChild(box);
 
   var shown = false;
@@ -47,9 +42,8 @@
 
   box.querySelector('.sub-pop-close').addEventListener('click', function () { close(14); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && shown && !box.hidden) close(14); });
-  box.querySelector('form').addEventListener('submit', function () { setTimeout(function () { close(0); }, 400); });
-  document.querySelectorAll('.subscribe .subscribe-form').forEach(function (f) {
-    f.setAttribute('target', '_blank');
-    f.addEventListener('submit', function () { set({ done: true }); box.hidden = true; });
+  box.querySelector('.sub-pop-btn').addEventListener('click', function () { close(0); });
+  document.querySelectorAll('.subscribe-btn').forEach(function (b) {
+    b.addEventListener('click', function () { set({ done: true }); box.hidden = true; });
   });
 })();
