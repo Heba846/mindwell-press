@@ -1,7 +1,7 @@
-/* Slide-in email signup: appears after 45% scroll or 20 s, once per visitor.
-   Dismissal is remembered for 14 days; subscribing hides it for good. */
+/* Slide-in email signup: appears after 8 s or 25% scroll.
+   Closing hides it for 3 days; clicking Subscribe hides it for good. */
 (function () {
-  var KEY = 'tk_sub_popup';
+  var KEY = 'tk_sub_popup_v2';
   function get() { try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return {}; } }
   function set(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} }
   var st = get();
@@ -35,13 +35,13 @@
   }
   function onScroll() {
     var h = document.documentElement;
-    if ((h.scrollTop + innerHeight) / h.scrollHeight > 0.45) show();
+    if ((h.scrollTop + innerHeight) / h.scrollHeight > 0.25) show();
   }
   window.addEventListener('scroll', onScroll, { passive: true });
-  setTimeout(show, 20000);
+  setTimeout(show, 8000);
 
-  box.querySelector('.sub-pop-close').addEventListener('click', function () { close(14); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && shown && !box.hidden) close(14); });
+  box.querySelector('.sub-pop-close').addEventListener('click', function () { close(3); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && shown && !box.hidden) close(3); });
   box.querySelector('.sub-pop-btn').addEventListener('click', function () { close(0); });
   document.querySelectorAll('.subscribe-btn').forEach(function (b) {
     b.addEventListener('click', function () { set({ done: true }); box.hidden = true; });
