@@ -363,3 +363,6 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .shelf .license { margin-top: auto; font-size: 0.84rem; color: var(--ink-soft); }
 .shelf .license + .links { margin-top: 0; }
 .cream .license { background: var(--paper); }
+.deal-banner + .deal-banner { border-top: 1px solid rgba(35, 48, 39, 0.25); }
+.deal-banner + .deal-banner .deal-inner { padding: 14px 0; }
+.deal-banner:has(+ .deal-banner:not([hidden])) { border-bottom: 0; }

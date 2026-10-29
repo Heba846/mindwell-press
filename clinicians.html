@@ -132,6 +132,15 @@
 
 <main>
 
+  <div class="deal-banner" data-start="2026-10-30T07:00:00Z" data-end="2026-11-04T07:59:00Z" hidden>
+    <div class="wrap">
+      <div class="deal-inner">
+        <span class="deal-tag">Free on Kindle · 5 days only</span>
+        <p class="deal-text">Group Openers and Closers, all 120 check-ins and closings: <s>$9.99</s> <strong>Free</strong> on Amazon.com until November 3</p>
+        <a class="deal-btn" href="https://www.amazon.com/dp/B0HPKSD9Y1" rel="noopener">Get it free</a>
+      </div>
+    </div>
+  </div>
   <div class="deal-banner" data-start="2026-10-26T15:00:00Z" data-end="2026-11-02T15:00:00Z" hidden>
     <div class="wrap">
       <div class="deal-inner">
@@ -143,9 +152,11 @@
   </div>
   <script>
   (function () {
-    var b = document.querySelector('.deal-banner'); if (!b) return;
-    var now = Date.now(), s = Date.parse(b.dataset.start), e = Date.parse(b.dataset.end);
-    if ((now >= s && now < e) || /[?&]deal=preview/.test(location.search)) b.hidden = false;
+    var now = Date.now(), preview = /[?&]deal=preview/.test(location.search);
+    document.querySelectorAll('.deal-banner').forEach(function (b) {
+      var s = Date.parse(b.dataset.start), e = Date.parse(b.dataset.end);
+      if ((now >= s && now < e) || preview) b.hidden = false;
+    });
   })();
   </script>
 
