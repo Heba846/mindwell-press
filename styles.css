@@ -380,10 +380,11 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .tier .tier-link { font-weight: 800; color: var(--forest); }
 .tier-main { border: 2px solid var(--copper); box-shadow: 0 8px 24px rgba(35, 48, 39, 0.08); }
 .tier .tier-note { font-size: 0.82rem; margin-top: 4px; }
-.team-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 36px 0 22px; padding: 18px 22px; max-width: 1040px; background: var(--paper); border: 2px solid var(--copper); border-radius: 8px; box-shadow: 0 8px 24px rgba(35, 48, 39, 0.08); }
-.team-strip p { margin: 0; flex: 1 1 320px; color: var(--ink-soft); }
-.team-strip p strong { color: var(--ink); }
-.team-strip-tag { background: var(--forest-deep); color: var(--cream); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px; }
+.team-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 36px 0 22px; padding: 16px 20px; max-width: 1040px; background: var(--paper); border: 1px solid var(--rule); border-left: 3px solid var(--copper); border-radius: 6px; }
+.team-strip-text { display: flex; gap: 10px; align-items: flex-start; flex: 1 1 300px; }
+.team-strip svg { flex: none; margin-top: 3px; color: var(--copper-ink); }
+.team-strip p { margin: 0; color: var(--ink-soft); line-height: 1.45; }
+.team-strip p strong { display: block; color: var(--forest-deep); font-weight: 800; }
 .team-strip .btn { white-space: nowrap; }
 .license a { color: var(--copper-ink); font-weight: 800; display: inline-block; margin-top: 2px; }
 .promo-pop .sub-pop-eyebrow { margin-right: 30px; }
