@@ -388,3 +388,4 @@ blockquote.script p { max-width: var(--measure); font-size: 1.1rem; }
 .team-strip .btn { white-space: nowrap; }
 .license a { color: var(--copper-ink); font-weight: 800; display: inline-block; margin-top: 2px; }
 .promo-pop .sub-pop-eyebrow { margin-right: 30px; }
+.team-strip .btn-forest { color: var(--cream); }
