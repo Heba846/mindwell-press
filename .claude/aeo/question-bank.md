@@ -14,6 +14,25 @@ whether this site has a page that answers each one well enough to be cited.
 Only add a question here that a facilitator would plausibly type. Do not pad the
 list to hit a number.
 
+**Where new questions come from.** Guessing is the weak part of this list, and
+the rows below started as guesses. Replace them with questions people actually
+ask, pulled from places where facilitators ask them in their own words:
+Heba's Amazon reviews and Q&A on all five books, replies and comments on The
+Facilitator's Desk newsletter, her Instagram and Threads replies, r/therapists
+and r/psychotherapy, LinkedIn group threads for group psychotherapists, and —
+once it has data — Search Console's query report for the site. A question taken
+from a real post beats a well-phrased invention, and the real phrasing is what a
+model matches against. Record where a question came from when it is not obvious.
+
+**Commercial-intent questions matter most for sales.** A facilitator asking
+"best group therapy curriculum for adult IOP" is closer to buying than one
+asking what a GIRP note is. Those questions are answered by `clinicians.html`
+and the book pages, not by a guide — so the fix is usually a FAQ and a short
+direct answer on the commercial page, plus a link in from the relevant guide.
+Never write a page whose purpose is to call her own books the best; answer the
+question honestly, say who each volume is for and who it is not for, and let the
+specifics do the work.
+
 ## Documentation
 
 | Question | Status | Page | Citations seen |
@@ -60,6 +79,22 @@ list to hit a number.
 | How do I handle conflict between two group members? | gap | — | — |
 | What do I do if a check-in reveals risk of harm? | partial | /guides/group-therapy-check-in-questions/ | — |
 | How do I respond to a member who is sedated or in cognitive fog? | gap | — | — |
+
+## Commercial intent
+
+These are answered on `clinicians.html` and the book pages. Highest value per
+visit, and the hardest to answer without turning into an advert.
+
+| Question | Status | Page | Citations seen |
+|---|---|---|---|
+| Best group therapy curriculum for adult IOP programs | gap | clinicians.html | — |
+| Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | — |
+| Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
+| Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | — |
+| Group therapy curriculum for PHP programs | gap | clinicians.html | — |
+| Do I need Volume 1 and Volume 2, or just one? | gap | clinicians.html | — |
+| Group therapy worksheets I am allowed to copy for clients | partial | clinicians.html | — |
+| Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
 
 ## Format and delivery
 

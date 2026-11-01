@@ -29,8 +29,16 @@ is open.
 
 1. Read the question bank. Pick the **6 questions** with the oldest or empty
    `Citations seen` date, preferring `covered` rows (we want to know whether our
-   own page is being cited) and `gap` rows that look winnable.
-2. For each question, in a new tab:
+   own page is being cited) and `gap` rows that look winnable. Include at least
+   one **commercial-intent** question each run — those are the ones that convert.
+2. **Harvest two real questions.** Before auditing, read somewhere facilitators
+   ask in their own words — Amazon reviews and Q&A on Heba's books, newsletter
+   replies, Instagram or Threads comments, r/therapists, r/psychotherapy, a
+   LinkedIn group thread — and add up to two questions to the bank in the asker's
+   phrasing, noting the source. Real phrasing is what a model matches against;
+   an invented question is a guess about a guess. Add nothing if nothing real
+   turned up — a padded list is worse than a short one.
+3. For each question, in a new tab:
    - Google it. If an AI Overview appears, record the sites it cites, in order,
      and whether `thoughtkindpress.com` is among them. If no AI Overview
      appears, record exactly that — absence is a real finding.
@@ -40,15 +48,15 @@ is open.
    - Note the shape, not the prose: which sub-questions the answer covers, in
      what order; whether it uses a table, a numbered list or a comparison;
      whether it gives numbers, and which; what caveats it includes.
-3. Never copy sentences from a cited page into any file. The shape is the useful
+4. Never copy sentences from a cited page into any file. The shape is the useful
    part; the words are theirs.
-4. Write the findings to `.claude/aeo/audits/<YYYY-MM-DD>.md`: one section per
+5. Write the findings to `.claude/aeo/audits/<YYYY-MM-DD>.md`: one section per
    question, with the cited domains, whether we appeared, the answer shape, and
    one line on what our page is missing by comparison.
-5. Update the question bank's `Citations seen` column: `checked YYYY-MM-DD` plus
+6. Update the question bank's `Citations seen` column: `checked YYYY-MM-DD` plus
    the top cited domain, or `no AIO` when none appeared. Change a row's `Status`
    only if the evidence changes it.
-6. Append a short entry to `.claude/aeo/run-log.md`.
+7. Append a short entry to `.claude/aeo/run-log.md`.
 
 ## Report back
 
