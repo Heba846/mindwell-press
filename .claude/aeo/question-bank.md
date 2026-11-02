@@ -38,7 +38,7 @@ specifics do the work.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | What is the difference between GIRP and DAP notes? | covered | /guides/group-therapy-progress-notes/ | — |
-| GIRP vs DAP vs BIRP vs SOAP for group notes | covered | /guides/group-therapy-note-formats-girp-dap-birp-soap/ | — |
+| GIRP vs DAP vs BIRP vs SOAP for group notes | covered | /guides/group-therapy-note-formats-girp-dap-birp-soap/ | checked 2026-11-02, no AIO |
 | How do I write a progress note for each member of a group? | covered | /guides/group-therapy-progress-notes/ | — |
 | How do I document a member who did not speak in group? | covered | /guides/when-nobody-talks-in-group/ | — |
 | Are group therapy notes the same as HIPAA psychotherapy notes? | covered | /guides/group-therapy-progress-notes/ | — |
@@ -49,7 +49,7 @@ specifics do the work.
 
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
-| How do I run a group where new members join every day? | covered | /guides/rolling-admission-groups/ | — |
+| How do I run a group where new members join every day? | covered | /guides/rolling-admission-groups/ | checked 2026-11-02, no AIO, top organic: ICANotes |
 | How do I orient a new member to an ongoing group? | covered | /guides/orient-new-member-therapy-group/ | — |
 | What is the difference between PHP and IOP groups? | covered | /guides/php-vs-iop-group-therapy/ | — |
 | How many hours a week is an IOP vs a PHP? | covered | /guides/php-vs-iop-group-therapy/ | — |
@@ -87,7 +87,7 @@ visit, and the hardest to answer without turning into an advert.
 
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
-| Best group therapy curriculum for adult IOP programs | gap | clinicians.html | — |
+| Best group therapy curriculum for adult IOP programs | gap | clinicians.html | checked 2026-11-02, no AIO, top organic: 2 competing curriculum books (Google Books, Amazon) |
 | Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | — |
 | Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
 | Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | — |

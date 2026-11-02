@@ -5,6 +5,56 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-02 — GA4 and Gumroad baseline recorded
+
+**Traffic baseline — GA4 property 559500373, last 28 days (5 Oct – 1 Nov 2026), 149 sessions total**
+
+By default channel group:
+- Direct: 101 (67.8%)
+- Organic Social: 22 (14.8%)
+- Referral: 17 (11.4%)
+- **AI Assistant: 6 (4.0%)** — 100% engagement rate, 1m37s avg engagement time, 7.5 events/session (GA4's own channel grouping; this is where AI-chat referrers land)
+- Organic Search: 3 (2.0%)
+
+By session source (same 28 days, all 10 rows):
+1. (direct) — 101 (67.8%)
+2. heba846.github.io — 17 (11.4%), 52.94% engagement — traffic landing on the raw GitHub Pages domain instead of thoughtkindpress.com; worth checking internal/external links for the raw github.io URL
+3. linkedin.com — 13 (8.7%)
+4. **chatgpt.com — 6 (4.0%), 100% engagement, 1m37s avg** — this is the whole AI Assistant bucket; no other row
+5. facebook.com — 5 (3.4%)
+6. google — 3 (2.0%)
+7. instagram — 1 (0.7%)
+8. l.facebook.com — 1 (0.7%)
+9. m.facebook.com — 1 (0.7%)
+10. threads — 1 (0.7%)
+
+**perplexity.ai and gemini.google.com: zero sessions in this window.** Only
+`chatgpt.com` shows up as an AI-answer referrer so far, and it is already the
+single most-engaged source on the site (100% engagement, longest average time).
+This is the pre-launch baseline — the 9 edited guides and 3 new guides from this
+run are on branch `ai-visibility-2026-11`, not yet merged, so this traffic
+predates all of today's changes.
+
+**First live audit — 2026-11-02, Google only, logged out**
+Checked 3 questions (`.claude/aeo/audits/2026-11-02.md`): no AI Overview
+appeared for any of them. ChatGPT half skipped — no signed-in session was open
+in the tab, and per the auditor's rule, no account was created to check it.
+Clearest finding: "best group therapy curriculum for adult IOP programs" has
+two direct book competitors ranking (a Google Books listing and an Amazon
+listing, both naming session count and modality up front) and
+`clinicians.html` isn't visible for it. Added one new FAQ to `clinicians.html`
+answering that exact question honestly — what the curriculum is built for and
+who it is not for, no "best" claim — in both the FAQPage schema and the
+visible FAQ section. Validator still clean (33 pages).
+
+**Gumroad — Starter Pack (free), as of 2026-11-02**
+One sale on the account total: `nassauharvey82@gmail.com`, Oct 28 12:46 AM,
+Free IOP/PHP Group Therapy Starter Pack, $0. 11 visits on that product, 4 on the
+Cheat Sheet, 9 on *When Group Gets Stuck* sample — no further conversions yet.
+(Separately, a new Gumroad **follower** `elgarhyheba5@gmail.com` was added same
+day — a profile follow, not a sale; flagged to Heba as possibly her own test
+account given the similarity to her real address.)
+
 ## 2026-11-02 — baseline, no live AI-answer data yet
 
 **Done**
