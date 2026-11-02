@@ -106,26 +106,30 @@ visit, and the hardest to answer without turning into an advert.
 
 ## Roadmap — weekly cadence
 
-One guide-writer run per week (new page or a deepen), per `CLAUDE.md`'s
-weekly-not-daily rule. Order set 2026-11-02, by commercial tie-in first
-(scenarios already sold in *When Group Gets Stuck* / *Group Openers and
-Closers*), then standalone search value, then depth work last since it
-carries less new-surface-area risk. Re-order freely if a real question comes
-in from Amazon Q&A, newsletter replies or Reddit that should jump the queue —
-see "Where new questions come from" above.
+**At most one brand-new guide (new URL) per week**, per `CLAUDE.md`'s
+weekly-not-daily rule — that's the actual spam signal to search engines and
+where the reputational risk of machine-drafted clinical content at speed
+lives. A **deepen is not a new URL**, so it carries none of that risk and can
+run alongside a new guide in the same week without changing the real
+publishing rate. That's how this schedule fits 9 items into 6 weeks instead
+of 9: each week pairs one new guide with one deepen wherever a deepen is
+ready to pair, rather than publishing two new guides in the same week.
 
-| Week of | Type | Item | Why this slot |
-|---|---|---|---|
-| 2026-11-09 | New guide | How do I handle conflict between two group members? | Matches *When Group Gets Stuck* scenario "A disagreement becomes personal" — direct cross-link and upsell |
-| 2026-11-16 | New guide | How do I respond to a member who is sedated or in cognitive fog? | Matches *When Group Gets Stuck* + is quoted verbatim in two *Group Openers and Closers* testimonials already on `clinicians.html` — strongest existing book tie-in |
-| 2026-11-23 | New guide | Open vs closed therapy groups: which is better? | Natural comparison-table page, ties into `/guides/rolling-admission-groups/` |
-| 2026-11-30 | New guide | DBT skills group activities for adults | Standalone high-interest topic, no existing page |
-| 2026-12-07 | New guide | Telehealth group therapy activities for IOP | Merges with "How do I run a skills group over video?" into one page — two near-duplicate gap rows would make two thin pages; one deep page is the point of weekly-not-daily |
-| 2026-12-14 | New guide | Co-facilitating a therapy group: how to split roles | Standalone, no existing page |
-| 2026-12-21 | Deepen | `/guides/group-therapy-progress-notes/` — add "what auditors look for" and "how long should a note be" | Both documentation gap rows fit inside the existing notes guide better than two new thin pages |
-| 2026-12-28 | Deepen | `/guides/iop-group-topics/` — add Psychoeducation topics and "how do I plan a week of IOP groups" sections | Closes two `partial` rows on one existing page |
-| 2027-01-04 | Deepen, extra care | `/guides/group-therapy-check-in-questions/` — "what do I do if a check-in reveals risk of harm" | Safety-sensitive: needs a real sourced citation (e.g. SAMHSA) for the "follow your program's policy, here is the general shape" framing, not a guessed protocol. Flag for Heba's review before merging, not just validate-and-PR. |
+Order set 2026-11-02, by commercial tie-in first (scenarios already sold in
+*When Group Gets Stuck* / *Group Openers and Closers*), then standalone
+search value. Re-order freely if a real question comes in from Amazon Q&A,
+newsletter replies or Reddit that should jump the queue — see "Where new
+questions come from" above.
 
-Not yet scheduled: "member stepping down mid-rotation" (deepen
-`/guides/rolling-admission-groups/`) — folds in naturally whenever that page
-is touched again; no dedicated week needed.
+| Week of | New guide (1/week max) | Paired deepen (adds no new URL) |
+|---|---|---|
+| 2026-11-09 | How do I handle conflict between two group members? — matches *When Group Gets Stuck*'s "A disagreement becomes personal", direct cross-link | `/guides/rolling-admission-groups/` — add "member stepping down mid-rotation" |
+| 2026-11-16 | How do I respond to a member who is sedated or in cognitive fog? — matches *When Group Gets Stuck* and is quoted in two *Group Openers and Closers* testimonials already on `clinicians.html` | `/guides/group-therapy-progress-notes/` — add "what auditors look for" |
+| 2026-11-23 | Open vs closed therapy groups: which is better? — comparison table, ties into `/guides/rolling-admission-groups/` | `/guides/group-therapy-progress-notes/` — add "how long should a note be" |
+| 2026-11-30 | DBT skills group activities for adults — standalone, no existing page | `/guides/iop-group-topics/` — add Psychoeducation topics |
+| 2026-12-07 | Telehealth group therapy activities for IOP — merges with "How do I run a skills group over video?" into one deep page instead of two thin ones | `/guides/iop-group-topics/` — add "how do I plan a week of IOP groups" |
+| 2026-12-14 | Co-facilitating a therapy group: how to split roles — standalone, no existing page | `/guides/group-therapy-check-in-questions/` — "what do I do if a check-in reveals risk of harm", **extra care**: needs a real sourced citation (e.g. SAMHSA), not a guessed protocol. Flag for Heba's review before merging, not just validate-and-PR, whichever week it lands in. |
+
+Each week is still one `guide-writer` run for the new guide plus one small,
+separate deepen edit — not doubled effort per guide, just the backlog of
+small fixes riding along instead of queueing nine weeks deep.
