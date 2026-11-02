@@ -88,12 +88,12 @@ visit, and the hardest to answer without turning into an advert.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | Best group therapy curriculum for adult IOP programs | covered | clinicians.html | checked 2026-11-02, no AIO, top organic: 2 competing curriculum books (Google Books, Amazon) |
-| Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | — |
+| Can I photocopy group therapy worksheets for my program? | covered | clinicians.html | — |
 | Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
-| Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | — |
+| Is there a group therapy curriculum built for rolling admission? | covered | clinicians.html | — |
 | Group therapy curriculum for PHP programs | covered | clinicians.html | — |
 | Do I need Volume 1 and Volume 2, or just one? | covered | clinicians.html | — |
-| Group therapy worksheets I am allowed to copy for clients | partial | clinicians.html | — |
+| Group therapy worksheets I am allowed to copy for clients | covered | clinicians.html | same FAQ as "Can I photocopy..." |
 | Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
 
 ## Format and delivery
