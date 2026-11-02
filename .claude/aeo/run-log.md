@@ -5,6 +5,22 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-02 — program license added to both book pages (closes the open item below)
+
+Both book detail pages were missing the program-license line that the home
+page and `clinicians.html` already advertise for them. Rather than guess new
+wording, this reuses the exact sentences already live and approved on
+`clinicians.html` for each book — not a new claim, just making the strongest
+buying argument visible on the page a buyer actually lands on:
+- `books/when-group-gets-stuck/index.html`: added the license line to the hero
+  (matching clinicians.html's "stuck" section) and a new FAQ "Does buying this
+  book include a program license?" covering the included single-facilitator
+  permission and the $69 team-license upgrade.
+- `books/group-openers-and-closers/index.html`: same pattern, matching
+  clinicians.html's "openers" section (no team-license tier exists for this
+  title, so the FAQ doesn't mention one).
+Both in schema and visible text; validator clean (33 pages).
+
 ## 2026-11-02 — GA4 and Gumroad baseline recorded
 
 **Traffic baseline — GA4 property 559500373, last 28 days (5 Oct – 1 Nov 2026), 149 sessions total**
@@ -95,14 +111,12 @@ other people's unverified claims onto this site. The auditor records the answer
 those profiles exist and are substantial. (d) creating a ChatGPT account to run
 the checks.
 
-**Open item for Heba (found while doing this)**
+**Open item for Heba — closed 2026-11-02**
 The home page and `clinicians.html` both advertise "Program license included" for
 *When Group Gets Stuck* and *Group Openers and Closers*, but neither book's own
-detail page mentions the program license at all. That is the strongest buying
-argument on the page a buyer actually lands on, and it is missing there. It was
-left alone rather than guessed at, because the exact license wording has to match
-what is printed inside each book. Decide the wording, then add it to both detail
-pages and give each a license FAQ entry.
+detail page mentioned the program license at all. Fixed by reusing the exact
+wording already live on `clinicians.html` for each book — see the 2026-11-02
+entry above. No new wording was invented.
 
 **Already in place before that document**
 `Book` schema is already on `clinicians.html` and both book pages, and the
