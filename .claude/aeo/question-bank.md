@@ -54,7 +54,7 @@ specifics do the work.
 | What is the difference between PHP and IOP groups? | covered | /guides/php-vs-iop-group-therapy/ | — |
 | How many hours a week is an IOP vs a PHP? | covered | /guides/php-vs-iop-group-therapy/ | — |
 | Open vs closed therapy groups: which is better? | gap | — | — |
-| How do I handle a member stepping down mid-rotation? | partial | /guides/rolling-admission-groups/ | — |
+| How do I handle a member stepping down mid-rotation? | covered | /guides/rolling-admission-groups/ | — |
 
 ## Session content
 
