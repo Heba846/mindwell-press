@@ -5,6 +5,17 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-02 — responded to the ChatGPT "builds its own curriculum" finding
+
+The ChatGPT audit found that for the top commercial query, ChatGPT doesn't
+recommend a product — it generates a 12-week curriculum itself and offers to
+build one interactively, citing only SAMHSA TIP 41, DBT Skills Training
+Handouts, *Mind Over Mood* and *Seeking Safety*. Added one honest FAQ to
+`clinicians.html`, "Should I build my own IOP group therapy curriculum or buy
+a ready-made one?", targeting the real decision point that leaves someone
+with rather than trying to out-rank a free AI-generated outline. Schema +
+visible text, validator clean (33 pages).
+
 ## 2026-11-02 — two more commercial-intent gaps closed on clinicians.html
 
 Added two FAQ entries (schema + visible), both answered honestly from facts

@@ -85,6 +85,18 @@ specifics do the work.
 These are answered on `clinicians.html` and the book pages. Highest value per
 visit, and the hardest to answer without turning into an advert.
 
+**2026-11-02 addition.** The ChatGPT half of that day's audit (see
+`.claude/aeo/audits/2026-11-02.md`) found that for "best group therapy
+curriculum for adult IOP programs," ChatGPT does not recommend any curriculum
+product — it generates its own 12-week outline on the spot and offers to
+build a complete one interactively, naming only SAMHSA TIP 41, DBT Skills
+Training Handouts, *Mind Over Mood* and *Seeking Safety* as source material.
+That changes the realistic target here: not "be the answer," but "be the
+thing someone reaches for once they realize building it themselves is a real
+time cost." "Should I build my own IOP group therapy curriculum or buy a
+ready-made one?" was added and answered honestly on `clinicians.html` to meet
+that exact decision point, without disparaging the build-it-yourself route.
+
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | Best group therapy curriculum for adult IOP programs | covered | clinicians.html | checked 2026-11-02, no AIO, top organic: 2 competing curriculum books (Google Books, Amazon) |
@@ -95,6 +107,7 @@ visit, and the hardest to answer without turning into an advert.
 | Do I need Volume 1 and Volume 2, or just one? | covered | clinicians.html | — |
 | Group therapy worksheets I am allowed to copy for clients | covered | clinicians.html | same FAQ as "Can I photocopy..." |
 | Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
+| Should I build my own IOP group therapy curriculum or buy a ready-made one? | covered | clinicians.html | source: 2026-11-02 ChatGPT audit — see note below |
 
 ## Format and delivery
 
