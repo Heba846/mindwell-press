@@ -5,6 +5,18 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-02 — two more commercial-intent gaps closed on clinicians.html
+
+Added two FAQ entries (schema + visible), both answered honestly from facts
+already stated elsewhere on the same page, no new claims:
+- "Do I need Volume 1 and Volume 2, or just one?" — Volume 1 alone runs the
+  curriculum; Volume 2 is the worksheets, useful but not required.
+- "Is this curriculum built for PHP, not just IOP?" — yes, cites the existing
+  PHP calendar and the 24 PHP Extension sessions already listed on the page.
+Question bank: both moved from `gap` to `covered`, and "Best group therapy
+curriculum for adult IOP programs" moved to `covered` now that its FAQ exists.
+Validator clean (33 pages).
+
 ## 2026-11-02 — program license added to both book pages (closes the open item below)
 
 Both book detail pages were missing the program-license line that the home
