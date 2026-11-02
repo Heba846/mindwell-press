@@ -5,6 +5,84 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-02 — weekly run: step-down section added; audit half blocked, on hold
+
+**Half 1 — one page deepened (done).** `guides/rolling-admission-groups/` — the
+question bank row "How do I handle a member stepping down mid-rotation?" was
+`partial` because step-down was bundled into a shared
+`Orientation, tracking and step-down` section and never answered head-on. That
+section is now split: `#orientation` is "Orientation and tracking", and a new
+`#step-down` section answers the question directly, with h3 subsections on what
+changes when hours drop (table: PHP→IOP, IOP→weekly, leaving), who tells the
+group and what they say, goodbye vs. keep attending, how a rotation absorbs a
+step-down without a graduation ritual, payer/authorization decisions,
+documentation, and an invented worked example labelled as invented. Two FAQ
+entries added (verbatim in both the visible HTML and the FAQPage schema). No new
+page, so no sitemap or guides-index change. Row moved `partial` → `covered`;
+`Citations seen` deliberately left `—` because no audit ran this week.
+Validator: `FAILURES: NONE`, 33 pages.
+
+**New source, verified this run.** CMS Local Coverage Determination L33626,
+Psychiatric Partial Hospitalization Programs (contractor Wellpoint Federal;
+revision effective for services on or after 2026-04-01). Fetched twice,
+independently, and the three quoted phrases confirmed against the live page:
+"stepping down to a less intensive level of outpatient care", "a reasonable
+expectation of improvement", and that absences from the PHP and their cause
+must be documented in the medical record. Added to the page's Sources list.
+Note for future runs: this is a *local* coverage determination, not a national
+one, and the page's prose says "a Medicare local coverage determination" rather
+than implying a national rule.
+
+**Claims cut this run for lack of a source.** Recorded because cutting is the
+rule, not a failure:
+- SAMHSA TIP 47 (NCBI NBK64087) could not be fetched this run, so no
+  continuing-care / step-down / discharge-planning claim was attributed to it.
+  The existing Sources entry stays because earlier claims on the page already
+  rest on it; nothing new was added on its authority.
+- 42 CFR 424.24(e) (PHP certification and recertification) — govinfo fetch
+  blocked. All recertification-timing and who-must-certify claims cut.
+- CMS Benefit Policy Manual Ch. 6 §70.3 — the PDF reached covered home health
+  only. Nothing used from it.
+- HIPAA / 42 CFR Part 2 — no primary source fetched, so the page makes no legal
+  claim about what the group may be told. "Who tells the group" is written as
+  practice, pointing to program policy.
+- Weekly hours-of-care numbers — not restated in the new section; it links to
+  `/guides/php-vs-iop-group-therapy/`, where those numbers are already sourced.
+- Payer / authorization mechanics — one sentence kept in hedged form ("in some
+  programs a change in level of care follows an authorization or
+  utilization-review decision ... varies by program"). It asserts no rule. Cut
+  it if even that is too much.
+
+**Needs Heba's eye before merge.** The group-announcement script, the closing
+prompts and the invented "Dana" example are the writer's drafts in the page's
+voice, not text taken from her books — the books are paid PDFs and are not in
+the repo, so no run can draw on them directly. She should check them against
+*Group Openers and Closers* and *When Group Gets Stuck* and swap in her own
+wording where it differs. The sentence naming *Group Openers and Closers* was
+rewritten to match that book's own live description on its detail page
+("ready-to-read ... closings ... new-member and telehealth versions") and now
+links to it, rather than asserting unseen book contents.
+
+**Half 2 — audit NOT run, on hold.** No browser tool existed in this session:
+no Chrome connector, and a scheduled cloud run has no link to Heba's computer.
+Google AI Overviews and ChatGPT answers cannot be read with WebSearch or
+WebFetch, so per the auditor brief nothing was substituted, no account was
+created, and no `Citations seen` cell was touched. Filed as one row in the
+Notion hold queue, "AEO audit — thoughtkindpress 2026-11-02", Status `On hold`,
+Attempts 1, due 2026-11-09. Say "نفذ المتعطل" with Chrome open to run it.
+The six questions it should take are still the ones with empty or oldest
+`Citations seen`.
+
+**Measurement.** No new measurement this run, and none claimed. The baseline
+recorded on 2026-11-02 (GA4 property 559500373, 5 Oct – 1 Nov 2026: 149
+sessions, `chatgpt.com` 6 sessions / 100% engagement, `perplexity.ai` and
+`gemini.google.com` zero; Gumroad starter pack 1 free sale) stands as the
+before. Any claim of a lift has to wait for a later window compared against it —
+and the guides from the previous run only merged today, so no window yet
+reflects them.
+
+---
+
 ## 2026-11-02 — two more commercial-intent gaps closed on clinicians.html
 
 Added two FAQ entries (schema + visible), both answered honestly from facts
