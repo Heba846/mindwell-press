@@ -5,6 +5,20 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-03 — Half 2 audit run (hold-queue rerun)
+
+Checked the six oldest Documentation questions on Google (logged out) and
+ChatGPT (signed-in session, fresh chat each). No AI Overview on any of the six.
+ChatGPT cited an outside source on 3 of 6 (ChoosingTherapy.com; HHS.gov; CMS
+for the auditor question), none on the other 3. thoughtkindpress.com was cited or
+visible nowhere. Findings: `audits/2026-11-03.md`. Question bank `Citations seen`
+updated for all six. No statuses changed, no site pages edited. Real-question
+harvest not done this run. Clearest gaps: the auditor-checklist question and the
+note-length question; the silent-member question has an intent-match gap on
+Google (non-clinical results).
+
+---
+
 ## 2026-11-02 — weekly run: step-down section added; audit half blocked, on hold
 
 **Half 1 — one page deepened (done).** `guides/rolling-admission-groups/` — the
