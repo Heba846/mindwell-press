@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Utility page for a QR code printed inside the book. Deliberately kept out
+     of sitemap.xml and noindexed: it is a destination, not content. -->
+<meta name="robots" content="noindex, follow">
+<title>Review — I Blamed the Brain</title>
+<meta name="description" content="Leave a review of I Blamed the Brain on Amazon or Goodreads.">
+<link rel="canonical" href="https://thoughtkindpress.com/r/brain/">
+
+<!-- ══════════════════════════════════════════════════════════════════
+     THE ONLY TWO LINES THAT EVER NEED CHANGING ARE THE href="" BELOW.
+     The QR code printed in the book points at THIS page, so the book
+     never has to be re-uploaded. Right now both go to a search, which
+     works before and after publication. Once the book is live, swap
+     them for the direct review links:
+
+       Amazon    https://www.amazon.com/review/create-review?asin=<ASIN>
+       Goodreads https://www.goodreads.com/review/edit/<BOOK-ID>
+     ══════════════════════════════════════════════════════════════════ -->
+
+<style>
+  :root{
+    --paper:#F6F1E6; --ink:#8E1B18; --text:#3A2E27; --muted:#6F5A4E;
+    --card:#FFFDF8; --line:#E3D9C9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#1A1614; --text:#EDE4D8; --muted:#B5A698;
+      --card:#241E1A; --line:#3A312B; --ink:#E0736B;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#1A1614; --text:#EDE4D8; --muted:#B5A698;
+    --card:#241E1A; --line:#3A312B; --ink:#E0736B;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--paper); color:var(--text); min-height:100vh;
+    font:400 17px/1.6 Georgia,'Iowan Old Style','Times New Roman',serif;
+    display:flex; align-items:center; justify-content:center; padding:48px 16px;
+  }
+  main{width:100%; max-width:470px; text-align:center}
+  img.cover{
+    width:132px; height:auto; border-radius:3px;
+    box-shadow:0 6px 22px rgba(0,0,0,.18); margin-bottom:26px;
+  }
+  h1{font-size:1.52rem; line-height:1.25; font-weight:600; margin-bottom:4px}
+  h1 em{font-style:italic; font-weight:500}
+  .by{color:var(--muted); font-size:.92rem; letter-spacing:.14em;
+      text-transform:uppercase; margin-bottom:30px}
+  p.lede{margin-bottom:10px}
+  p.small{color:var(--muted); font-size:.93rem; margin-top:26px}
+  .btns{display:flex; flex-direction:column; gap:12px; margin-top:30px}
+  a.btn{
+    display:block; padding:15px 20px; border-radius:9px; text-decoration:none;
+    font:500 1.02rem/1.2 Georgia,serif; border:1.5px solid var(--line);
+    background:var(--card); color:var(--text); transition:.15s ease;
+  }
+  a.btn:hover{border-color:var(--ink); color:var(--ink); transform:translateY(-1px)}
+  a.btn span{display:block; font-size:.8rem; color:var(--muted); margin-top:3px;
+             font-family:system-ui,sans-serif; letter-spacing:.02em}
+  a.btn:hover span{color:inherit; opacity:.75}
+  hr{border:0; border-top:1px solid var(--line); margin:34px 0 0}
+  footer{margin-top:18px; font:400 .82rem/1.5 system-ui,sans-serif;
+         color:var(--muted); letter-spacing:.04em}
+</style>
+</head>
+<body>
+<main>
+  <img class="cover" src="cover.jpg" alt="Cover of I Blamed the Brain">
+
+  <h1>I Blamed <em>the Brain</em></h1>
+  <p class="by">Erena Jabrial</p>
+
+  <p class="lede">Thank you for reading it.</p>
+  <p>An honest review helps the next reader decide whether this book was
+     written for them — which is the one thing I can’t tell them myself.
+     Critical reviews are as useful as kind ones.</p>
+
+  <div class="btns">
+    <a class="btn" href="https://www.amazon.com/s?k=I+Blamed+the+Brain+Erena+Jabrial">
+      Review on Amazon
+      <span>opens your local Amazon store</span>
+    </a>
+    <a class="btn" href="https://www.goodreads.com/search?q=I+Blamed+the+Brain">
+      Review on Goodreads
+      <span>a free account is needed</span>
+    </a>
+  </div>
+
+  <p class="small">Either one takes about two minutes. Both is generous.</p>
+
+  <hr>
+  <footer>Thoughtkind Press</footer>
+</main>
+</body>
+</html>
