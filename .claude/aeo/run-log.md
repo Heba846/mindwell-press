@@ -63,6 +63,63 @@ rule. Hours and day length are handed to `/guides/php-vs-iop-group-therapy/`.
   three or four days a week"), state figures that are not tied to a source in the
   Sources lists and could not be re-verified this run. Worth sourcing or hedging.
 
+**Primary source verified this run (by the orchestrator, after the writer's
+fetches all failed).** CMS Transmittal 12425 (CR 13496), 21 December 2023,
+`cms.gov/files/document/r12425bp.pdf` — the transmittal that adds §70.4 and
+revises §70.3 of the *Medicare Benefit Policy Manual*, Pub. 100-02, chapter 6.
+Fetched twice, independently, and the two quoted thresholds confirmed both times:
+PHP requires a plan of care evidencing the need for "a minimum of 20 hours per
+week of therapeutic services" (§70.3), and IOP "a minimum of 9 hours per week of
+services" (§70.4). This closes an item left open on 2026-11-02, when chapter 6
+§70.3 could not be reached.
+
+Applied to `guides/php-vs-iop-group-therapy/` only, and only as an attribution
+upgrade — **the numbers on the page did not change**. They were previously
+credited to a Medicare Administrative Contractor's comparison; they are now
+attributed to the Benefit Policy Manual itself, with the section numbers named in
+the sentence (per CLAUDE.md's "name the source in the sentence"). The manual was
+added to that page's Sources list above the Noridian entry, which stays. The
+page's `dateModified` and byline were bumped. No FAQ text was touched on that
+page, so no schema/visible pair moved.
+
+**Half 2 — audit NOT run, on hold (second week running).** No browser tool exists
+in this session: there is no Chrome connector on the account at all, and a
+scheduled cloud run has no link to Heba's computer, so this is structural, not an
+outage. Google AI Overviews and ChatGPT answers cannot be read with `WebSearch`
+or `WebFetch`, so per the auditor brief nothing was substituted, no account was
+created, and **no `Citations seen` cell was touched**. The two-question harvest
+from real facilitator posts also did not run — it is part of the auditor's pass.
+Filed as one row in the Notion hold queue, "AEO audit — thoughtkindpress
+2026-11-09", Status `On hold`, Attempts 1, due 2026-11-16. Say "نفذ المتعطل"
+with Chrome open.
+
+**Correction to the 2026-11-02 entry.** That entry says the audit was blocked and
+left on hold. It was in fact run the next day: the hold-queue row
+"AEO audit — thoughtkindpress 2026-11-02" is `Done`, Attempts 3, and records that
+on 2026-11-03 Google and a signed-in ChatGPT were checked for the six oldest
+Documentation questions — no AI Overviews, `thoughtkindpress.com` not cited —
+with `audits/2026-11-03.md`, a question-bank update and a run-log entry on branch
+`aeo-audit-2026-11-03`. **That work is in PR #6 and is still unmerged**, which is
+why none of it appears on `main` and why the `Citations seen` column here still
+reads 2026-11-02. A future run should not re-audit those six questions before
+#6 merges, or it will redo work that already exists.
+
+**Open PRs are accumulating — worth a decision.** As of this run, three are open
+against `main` and none is merged: #4 (2026-11-02, question-bank status fixes),
+#6 (2026-11-03, the Half 2 audit above) and #8 (2026-11-06, "Add guide: group
+therapy icebreakers for adults" — note that no question-bank row corresponds to
+it, so it did not come from this weekly cadence). This run's PR makes four. The
+risk is not the branches themselves but that `main` no longer reflects what has
+been checked, so each run plans against a stale question bank.
+
+**Measurement.** No new measurement this run, and none claimed. The baseline from
+2026-11-02 (GA4 property 559500373, 5 Oct – 1 Nov 2026: 149 sessions,
+`chatgpt.com` 6 sessions / 100% engagement, `perplexity.ai` and
+`gemini.google.com` zero; Gumroad starter pack 1 free sale) still stands as the
+only before. No after-window can be read yet, and not merely because time is
+short: most of the work from the last two runs is sitting in unmerged PRs, so the
+live site does not yet contain the changes any lift would be attributed to.
+
 ---
 
 ## 2026-11-02 — weekly run: step-down section added; audit half blocked, on hold
