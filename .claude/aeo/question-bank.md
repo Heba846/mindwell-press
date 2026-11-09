@@ -67,7 +67,7 @@ specifics do the work.
 | Holiday group therapy topics | covered | /guides/holiday-group-therapy-topics/ | — |
 | DBT skills group activities for adults | gap | — | — |
 | Psychoeducation group topics for mental health IOP | partial | /guides/iop-group-topics/ | — |
-| How do I plan a week of IOP groups? | partial | /guides/iop-group-topics/ | — |
+| How do I plan a week of IOP groups? | covered | /guides/iop-group-topics/#week | — |
 
 ## Difficult moments
 

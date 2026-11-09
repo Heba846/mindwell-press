@@ -5,6 +5,66 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-09 — weekly run
+
+**Half 1 — one page deepened (done).** `guides/iop-group-topics/` — the question
+bank row "How do I plan a week of IOP groups?" was `partial`: `#week` was four
+generic bullets. It is now "How do I plan a week of IOP groups?" and answers
+head-on: a direct answer first, then why a rotation beats a fixed order, a worked
+five-day IOP grid (PE/SK/PR codes) as a table, a six-week skills-cycle table
+(one module a week), a PHP-day grid that keeps the same spine and adds PH-xx
+groups, a table showing how the spine adapts to 3, 4 and 5 program days, a
+drop-first order for low census / short days, how absences and closures are
+handled, and who decides and how far ahead to plan. Three FAQ entries added
+(verbatim in the visible HTML and the FAQPage schema; 63, 58 and 58 words):
+"How do I plan a week of IOP groups?", "How many groups a day should an IOP
+run?", "What do I drop first when an IOP group day runs short?". `dateModified`
+bumped to 2026-11-09 and byline updated. Inline `.week-grid` CSS added to the
+page's own `<style>` block (no change to `styles.css`). One inbound link
+improved: `php-vs-iop-group-therapy` now links "how to build a week from it" to
+`/guides/iop-group-topics/#week`. Existing cross-links to rolling-admission,
+check-in questions and holiday topics kept. No new page, so no sitemap or guides
+index change. Row moved `partial` to `covered`; `Citations seen` left `—`
+because no audit ran this week. Validator: `FAILURES: NONE`, 35 pages.
+
+**Sources verified this run: none.** Every WebFetch this run (Noridian PHP vs
+IOP, Medicare.gov partial hospitalization, the Nebraska DHHS IOP 2.1 definition,
+SAMHSA TIP 47 on NCBI) returned a provenance/permission error and was not
+retried; nothing was fetched by any other route. No new entry was added to the
+page's Sources list and no claim leans on those pages. The section therefore
+contains no hours-of-care, length-of-stay, payer, authorization or HIPAA number or
+rule. Hours and day length are handed to `/guides/php-vs-iop-group-therapy/`.
+
+**Claims cut or avoided for lack of a source.**
+- Any typical IOP length of stay. The six-week cycle is justified only by the
+  page's own six skill modules, and the text tells the reader to size it from
+  their own discharge data.
+- Any statement of how many hours or days a week IOP or PHP runs, including "many
+  IOPs run three days". Worded as "programs run different numbers of days".
+- Any claim that a shortened or low-census group counts toward required hours,
+  billing or documentation. Written as a program/payer question.
+- Any regulated meaning of "groups per day". The two-groups-a-day figure is
+  framed as a workable planning start, not a standard.
+
+**Needs Heba's eye before merge.**
+- The whole section is the writer's draft in the page's voice. The books are paid
+  PDFs and are not in the repo, so nothing here is taken from the Open-Enrollment
+  Program Series. The grids are a deliberately generic worked example and say so;
+  check them against the series' own 3-day IOP, 4-day extended IOP and 5-day PHP
+  calendars (described on `clinicians.html`) and swap in her wording or structure
+  where they differ. In particular, the series' 5-day calendar is for PHP, while
+  this page's five-day example is written as an IOP week.
+- The "six-week" cycle matches the six-week rotation stated on `clinicians.html`
+  but the module order (mindfulness first) is only an example.
+- Drop-first order and "who decides" are practice suggestions with no source.
+- Pre-existing, not touched: the FAQ "How many groups does an IOP or PHP day
+  usually include?" on this page, and the "Typical day" row on
+  `php-vs-iop-group-therapy` ("about three hours, often two or three groups,
+  three or four days a week"), state figures that are not tied to a source in the
+  Sources lists and could not be re-verified this run. Worth sourcing or hedging.
+
+---
+
 ## 2026-11-02 — weekly run: step-down section added; audit half blocked, on hold
 
 **Half 1 — one page deepened (done).** `guides/rolling-admission-groups/` — the
