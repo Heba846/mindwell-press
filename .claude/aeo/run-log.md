@@ -5,6 +5,16 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-12 — new market test: harm reduction groups for AOD day programs (AU/CA/IE)
+
+Heba asked to test facilitators outside the US (Australia, Canada, Ireland) before writing an addiction-focused book. Research this session: Australia's National Drug Strategy 2017–2026 is built on harm minimisation; Canada's CDSS lists harm reduction among substance use services; Ireland's SAOL "Reduce the Use" lets participants choose no change, cutting down or stopping; existing books found were therapy texts, self-help workbooks or closed-cohort manuals, not session-ready rolling-admission group material (not an exhaustive Amazon search).
+
+Added `guides/harm-reduction-group-activities/` (eight stand-alone sessions, one full sample session, withdrawal and naloxone safety lines, country wording table, 4 FAQs) and a free 2-page PDF `free-resources/Harm_Reduction_Group_Sample_Session.pdf` (no email). Sources fetched and verified this session: NDS 2017–2026 PDF, Health Canada CDSS overview (modified 2024-07-29), SAOL Reduce the Use 3rd ed., Healthdirect "Addiction withdrawal" (reviewed June 2026), health.gov.au Take Home Naloxone. Validator: FAILURES: NONE, 38 pages.
+
+**Test to read in 4–6 weeks:** GA4 page views and PDF downloads for this page by country (Australia, Canada, Ireland, UK) versus zero today, and Search Console impressions for "harm reduction group activities" queries. Decide on an AOD book only if real non-US traffic and downloads show up. Also blocked until resolved: the KDP account is closed, so a new Amazon title can't be published yet.
+
+---
+
 ## 2026-11-11 — Half 2 audit run from Chrome (six questions not covered by the 11-03 audit)
 
 Ran from the hold queue with Chrome open. `.claude/aeo/audits/2026-11-11.md` has
