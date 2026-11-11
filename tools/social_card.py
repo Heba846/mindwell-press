@@ -1,6 +1,7 @@
 """Render branded social images for a Thoughtkind Press guide.
 
-Usage: python3 tools/social_card.py <slug> "<Title>" "<one-line hook>"
+Usage: python3 tools/social_card.py <slug> "<Title>" "<one-line hook>" ["<eyebrow>"]
+The optional eyebrow defaults to "Facilitator guide · IOP & PHP".
 Writes assets/social/<slug>-linkedin.png (1200x627, also used as og:image)
 and assets/social/<slug>-newsletter.png (1920x1080 newsletter cover).
 """
@@ -11,6 +12,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FD = ROOT / "tools" / "fonts"
 def F(name): return "data:font/woff2;base64," + base64.b64encode((FD / name).read_bytes()).decode()
 slug, title, hook = sys.argv[1], sys.argv[2], sys.argv[3]
+eyebrow = sys.argv[4] if len(sys.argv) > 4 else "Facilitator guide · IOP & PHP"
 out = ROOT / "assets" / "social"; out.mkdir(parents=True, exist_ok=True)
 
 def page(w, h, FS):
@@ -34,7 +36,7 @@ p{{font-family:L,serif;font-style:italic;font-size:{28*s}px;line-height:1.35;col
 .foot b{{width:{12*s}px;height:{12*s}px;border-radius:50%;background:#C8825E;display:inline-block}}
 .foot span{{color:#C9D0C4;font-weight:800}}
 </style></head><body><div class="grain"></div><div class="bars"><i></i><i></i><i></i></div>
-<div class="wrap"><div class="eyebrow">Facilitator guide · IOP &amp; PHP</div><h1>{html.escape(title)}</h1><p>{html.escape(hook)}</p>
+<div class="wrap"><div class="eyebrow">{html.escape(eyebrow)}</div><h1>{html.escape(title)}</h1><p>{html.escape(hook)}</p>
 <div class="foot">Thoughtkind Press <b></b> <span>thoughtkindpress.com/guides</span></div></div></body></html>"""
 
 n = len(title)
