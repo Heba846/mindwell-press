@@ -110,6 +110,14 @@ that exact decision point, without disparaging the build-it-yourself route.
 | Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
 | Should I build my own IOP group therapy curriculum or buy a ready-made one? | covered | clinicians.html | source: 2026-11-02 ChatGPT audit — see note below |
 
+## Outside the US: AOD and harm reduction (test, added 2026-11-12)
+
+| Question | Status | Page | Citations seen |
+|---|---|---|---|
+| What are harm reduction group activities for AOD day programs? | covered | /guides/harm-reduction-group-activities/ | — |
+| Can one group include members who want to stop and members who want to cut down? | covered | /guides/harm-reduction-group-activities/ | — |
+| How do I run a harm reduction group with rolling admission? | covered | /guides/harm-reduction-group-activities/ | — |
+
 ## Format and delivery
 
 | Question | Status | Page | Citations seen |
