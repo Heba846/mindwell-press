@@ -50,8 +50,9 @@ specifics do the work.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | How do I run a group where new members join every day? | covered | /guides/rolling-admission-groups/ | checked 2026-11-02, no AIO, top organic: ICANotes |
-| How do I orient a new member to an ongoing group? | covered | /guides/orient-new-member-therapy-group/ | — |
-| What is the difference between PHP and IOP groups? | covered | /guides/php-vs-iop-group-therapy/ | — |
+| How do I orient a new member to an ongoing group? | covered | /guides/orient-new-member-therapy-group/ | checked 2026-11-11, AIO: getzestlife.com first; ChatGPT cited aristarecovery.com |
+| Group facilitation advice for adding new member to an established group? (real r/therapists thread title, seen in Google results 2026-11-11) | covered | /guides/orient-new-member-therapy-group/ | — |
+| What is the difference between PHP and IOP groups? | covered | /guides/php-vs-iop-group-therapy/ | checked 2026-11-11, AIO: Charlie Health first, 8 provider sites; ChatGPT not checked |
 | How many hours a week is an IOP vs a PHP? | covered | /guides/php-vs-iop-group-therapy/ | — |
 | Open vs closed therapy groups: which is better? | gap | — | — |
 | How do I handle a member stepping down mid-rotation? | covered | /guides/rolling-admission-groups/ | — |
@@ -60,7 +61,7 @@ specifics do the work.
 
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
-| IOP group therapy topics list | covered | /guides/iop-group-topics/ | — |
+| IOP group therapy topics list | covered | /guides/iop-group-topics/ | checked 2026-11-11, AIO: intoactionrecovery.us first (partly read); ChatGPT not checked |
 | Group therapy check-in questions for adults | covered | /guides/group-therapy-check-in-questions/ | — |
 | Group therapy closing activities | covered | /guides/group-therapy-closing-activities/ | — |
 | Grounding exercises for group therapy | covered | /guides/grounding-exercises-for-group-therapy/ | — |
@@ -73,7 +74,7 @@ specifics do the work.
 
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
-| What do I do when a group member monopolises the session? | covered | /guides/group-member-monopolizes/ | — |
+| What do I do when a group member monopolises the session? | covered | /guides/group-member-monopolizes/ | checked 2026-11-11, AIO: Groups in Private Practice first (partly read); ChatGPT not checked |
 | What do I do when nobody talks in group therapy? | covered | /guides/when-nobody-talks-in-group/ | — |
 | What do I say when members say we have done this already? | covered | /guides/rolling-admission-groups/ | — |
 | How do I handle conflict between two group members? | gap | — | — |
@@ -88,9 +89,9 @@ visit, and the hardest to answer without turning into an advert.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | Best group therapy curriculum for adult IOP programs | covered | clinicians.html | checked 2026-11-02, no AIO, top organic: 2 competing curriculum books (Google Books, Amazon) |
-| Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | — |
+| Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | checked 2026-11-11, AIO: Therapist Aid first (partly read); ChatGPT not checked |
 | Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
-| Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | — |
+| Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | checked 2026-11-11, AIO cites thoughtkindpress.com and Amazon first; ChatGPT cited others, then the site (memory-influenced) |
 | Group therapy curriculum for PHP programs | covered | clinicians.html | — |
 | Do I need Volume 1 and Volume 2, or just one? | covered | clinicians.html | — |
 | Group therapy worksheets I am allowed to copy for clients | partial | clinicians.html | — |

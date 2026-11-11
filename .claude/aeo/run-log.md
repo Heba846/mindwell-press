@@ -5,6 +5,29 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-11 — Half 2 audit run from Chrome (six questions not covered by the 11-03 audit)
+
+Ran from the hold queue with Chrome open. `.claude/aeo/audits/2026-11-11.md` has
+the detail. PR #6 (2026-11-03 audit of the seven Documentation questions) is
+still unmerged, so these six were chosen from other sections to avoid repeating
+it: orient a new member, PHP vs IOP, IOP topics list, monopolising member,
+photocopy worksheets (commercial), curriculum for rolling admission (commercial).
+
+- **Google (signed-in Chrome): AI Overview appeared for all six.** The 2026-11-02
+  and 2026-11-03 checks were logged out and saw none; the difference is worth
+  remembering before comparing across dates.
+- **thoughtkindpress.com is cited** in the AI Overview for "Is there a group therapy
+  curriculum built for rolling admission?". Not seen in the other five (three of
+  those overviews were only partly read; see the audit file).
+- **ChatGPT (signed in, web search on): checked for two questions only** (orient a
+  new member; curriculum for rolling admission). The account has memory of Heba's
+  publishing, so its curriculum answer named her series unprompted; not counted as
+  an independent citation. The other four ChatGPT checks are not done.
+- Added one question to the bank in a real asker's phrasing (r/therapists thread).
+- No site page edited. No measurement beyond the above was taken or estimated.
+
+---
+
 ## 2026-11-03 — Half 2 audit run (hold-queue rerun)
 
 Checked the six oldest Documentation questions on Google (logged out) and
