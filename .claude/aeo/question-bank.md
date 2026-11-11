@@ -86,16 +86,29 @@ specifics do the work.
 These are answered on `clinicians.html` and the book pages. Highest value per
 visit, and the hardest to answer without turning into an advert.
 
+**2026-11-02 addition.** The ChatGPT half of that day's audit (see
+`.claude/aeo/audits/2026-11-02.md`) found that for "best group therapy
+curriculum for adult IOP programs," ChatGPT does not recommend any curriculum
+product — it generates its own 12-week outline on the spot and offers to
+build a complete one interactively, naming only SAMHSA TIP 41, DBT Skills
+Training Handouts, *Mind Over Mood* and *Seeking Safety* as source material.
+That changes the realistic target here: not "be the answer," but "be the
+thing someone reaches for once they realize building it themselves is a real
+time cost." "Should I build my own IOP group therapy curriculum or buy a
+ready-made one?" was added and answered honestly on `clinicians.html` to meet
+that exact decision point, without disparaging the build-it-yourself route.
+
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | Best group therapy curriculum for adult IOP programs | covered | clinicians.html | checked 2026-11-02, no AIO, top organic: 2 competing curriculum books (Google Books, Amazon) |
-| Can I photocopy group therapy worksheets for my program? | partial | clinicians.html | checked 2026-11-11, AIO: Therapist Aid first (partly read); ChatGPT not checked |
+| Can I photocopy group therapy worksheets for my program? | covered | clinicians.html | checked 2026-11-11, AIO: Therapist Aid first (partly read); ChatGPT not checked |
 | Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
-| Is there a group therapy curriculum built for rolling admission? | partial | clinicians.html | checked 2026-11-11, AIO cites thoughtkindpress.com and Amazon first; ChatGPT cited others, then the site (memory-influenced) |
+| Is there a group therapy curriculum built for rolling admission? | covered | clinicians.html | checked 2026-11-11, AIO cites thoughtkindpress.com and Amazon first; ChatGPT cited others, then the site (memory-influenced) |
 | Group therapy curriculum for PHP programs | covered | clinicians.html | — |
 | Do I need Volume 1 and Volume 2, or just one? | covered | clinicians.html | — |
-| Group therapy worksheets I am allowed to copy for clients | partial | clinicians.html | — |
+| Group therapy worksheets I am allowed to copy for clients | covered | clinicians.html | same FAQ as "Can I photocopy..." |
 | Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
+| Should I build my own IOP group therapy curriculum or buy a ready-made one? | covered | clinicians.html | source: 2026-11-02 ChatGPT audit — see note below |
 
 ## Format and delivery
 
@@ -104,3 +117,33 @@ visit, and the hardest to answer without turning into an advert.
 | Telehealth group therapy activities for IOP | gap | — | — |
 | How do I run a skills group over video? | gap | — | — |
 | Co-facilitating a therapy group: how to split roles | gap | — | — |
+
+## Roadmap — weekly cadence
+
+**At most one brand-new guide (new URL) per week**, per `CLAUDE.md`'s
+weekly-not-daily rule — that's the actual spam signal to search engines and
+where the reputational risk of machine-drafted clinical content at speed
+lives. A **deepen is not a new URL**, so it carries none of that risk and can
+run alongside a new guide in the same week without changing the real
+publishing rate. That's how this schedule fits 9 items into 6 weeks instead
+of 9: each week pairs one new guide with one deepen wherever a deepen is
+ready to pair, rather than publishing two new guides in the same week.
+
+Order set 2026-11-02, by commercial tie-in first (scenarios already sold in
+*When Group Gets Stuck* / *Group Openers and Closers*), then standalone
+search value. Re-order freely if a real question comes in from Amazon Q&A,
+newsletter replies or Reddit that should jump the queue — see "Where new
+questions come from" above.
+
+| Week of | New guide (1/week max) | Paired deepen (adds no new URL) |
+|---|---|---|
+| 2026-11-09 | How do I handle conflict between two group members? — matches *When Group Gets Stuck*'s "A disagreement becomes personal", direct cross-link | `/guides/rolling-admission-groups/` — add "member stepping down mid-rotation" |
+| 2026-11-16 | How do I respond to a member who is sedated or in cognitive fog? — matches *When Group Gets Stuck* and is quoted in two *Group Openers and Closers* testimonials already on `clinicians.html` | `/guides/group-therapy-progress-notes/` — add "what auditors look for" |
+| 2026-11-23 | Open vs closed therapy groups: which is better? — comparison table, ties into `/guides/rolling-admission-groups/` | `/guides/group-therapy-progress-notes/` — add "how long should a note be" |
+| 2026-11-30 | DBT skills group activities for adults — standalone, no existing page | `/guides/iop-group-topics/` — add Psychoeducation topics |
+| 2026-12-07 | Telehealth group therapy activities for IOP — merges with "How do I run a skills group over video?" into one deep page instead of two thin ones | `/guides/iop-group-topics/` — add "how do I plan a week of IOP groups" |
+| 2026-12-14 | Co-facilitating a therapy group: how to split roles — standalone, no existing page | `/guides/group-therapy-check-in-questions/` — "what do I do if a check-in reveals risk of harm", **extra care**: needs a real sourced citation (e.g. SAMHSA), not a guessed protocol. Flag for Heba's review before merging, not just validate-and-PR, whichever week it lands in. |
+
+Each week is still one `guide-writer` run for the new guide plus one small,
+separate deepen edit — not doubled effort per guide, just the backlog of
+small fixes riding along instead of queueing nine weeks deep.

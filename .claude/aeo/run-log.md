@@ -143,8 +143,6 @@ only before. No after-window can be read yet, and not merely because time is
 short: most of the work from the last two runs is sitting in unmerged PRs, so the
 live site does not yet contain the changes any lift would be attributed to.
 
----
-
 ## 2026-11-03 — Half 2 audit run (hold-queue rerun)
 
 Checked the six oldest Documentation questions on Google (logged out) and
@@ -236,6 +234,17 @@ and the guides from the previous run only merged today, so no window yet
 reflects them.
 
 ---
+
+## 2026-11-02 — responded to the ChatGPT "builds its own curriculum" finding
+
+The ChatGPT audit found that for the top commercial query, ChatGPT doesn't
+recommend a product — it generates a 12-week curriculum itself and offers to
+build one interactively, citing only SAMHSA TIP 41, DBT Skills Training
+Handouts, *Mind Over Mood* and *Seeking Safety*. Added one honest FAQ to
+`clinicians.html`, "Should I build my own IOP group therapy curriculum or buy
+a ready-made one?", targeting the real decision point that leaves someone
+with rather than trying to out-rank a free AI-generated outline. Schema +
+visible text, validator clean (33 pages).
 
 ## 2026-11-02 — two more commercial-intent gaps closed on clinicians.html
 
