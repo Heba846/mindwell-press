@@ -22,6 +22,14 @@
     .topics li { margin-bottom: 10px; }
     .topics .code { font-size: .78em; font-weight: 800; letter-spacing: .04em; color: var(--ink-soft); white-space: nowrap; }
     .note { border-left: 3px solid var(--copper); padding-left: 14px; }
+    .week-scroll { overflow-x: auto; margin: 18px 0 22px; max-width: 860px; }
+    .week-grid { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    .week-grid caption { text-align: left; font-weight: 800; padding-bottom: 8px; }
+    .week-grid th, .week-grid td { text-align: left; padding: 10px 14px 10px 0; border-top: 1px solid var(--rule); vertical-align: top; }
+    .week-grid thead th { border-top: 0; border-bottom: 2px solid var(--rule); font-size: .85rem; letter-spacing: .03em; }
+    .week-grid tbody th { font-weight: 800; white-space: nowrap; }
+    .week-grid td { color: var(--ink-soft); }
+    .week-grid .code { font-size: .78em; font-weight: 800; letter-spacing: .04em; white-space: nowrap; }
   </style>
   <script type="application/ld+json">
 {
@@ -57,7 +65,7 @@
    "author": { "@id": "https://thoughtkindpress.com/about/#heba" },
    "publisher": { "@id": "https://thoughtkindpress.com/#org" },
    "datePublished": "2026-10-25",
-   "dateModified": "2026-11-02",
+   "dateModified": "2026-11-09",
    "mainEntityOfPage": "https://thoughtkindpress.com/guides/iop-group-topics/",
    "inLanguage": "en",
    "image": "https://thoughtkindpress.com/assets/covers/vol3-share.jpg",
@@ -80,6 +88,21 @@
      "@type": "Question",
      "name": "Can I use these topics in a rolling-admission group?",
      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every topic on this list is written to stand alone, so it works when new members join on any day. Give each session a short orientation for first-day members and separate reflection questions for first-time and returning members." }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I plan a week of IOP groups?",
+     "acceptedAnswer": { "@type": "Answer", "text": "Build the week around one skills module, three sessions, and pair every teaching group with a process group. Fill the remaining teaching slots with psychoeducation topics chosen by who is in the room. Because each session stands alone, the plan works when members join on different days. Repeat the six skill modules as a six-week rotation, and adjust it to your program's schedule." }
+    },
+    {
+     "@type": "Question",
+     "name": "How many groups a day should an IOP run?",
+     "acceptedAnswer": { "@type": "Answer", "text": "There is no single right number. It follows from the length of your program's day and the session length it uses, so check your schedule and payer requirements. If you are planning from scratch, two groups a day is a workable start: one teaching group, skills or psychoeducation, and one process group. Longer days add a third group." }
+    },
+    {
+     "@type": "Question",
+     "name": "What do I drop first when an IOP group day runs short?",
+     "acceptedAnswer": { "@type": "Answer", "text": "Drop psychoeducation and any extra PHP groups first, because the room chooses them and nothing depends on them. Shorten the skills session next: one teaching point, one practice, one planned use. Keep the check-in, the process group and the first-day orientation last. Whether a shortened day meets your program's or payer's requirements is a question for your program." }
     }
    ]
   },
@@ -121,7 +144,7 @@
     <div class="wrap prose">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / <span aria-current="page">IOP group topics</span></nav>
       <h1>IOP group topics: 78 session ideas for adult mental health IOP and PHP groups</h1>
-      <p class="byline">By <a href="/about/">Heba El Garhy</a> · Published October 25, 2026 · Updated November 2, 2026 · <a href="/about/#editorial">Editorial standards</a></p>
+      <p class="byline">By <a href="/about/">Heba El Garhy</a> · Published October 25, 2026 · Updated November 9, 2026 · <a href="/about/#editorial">Editorial standards</a></p>
       <p class="lede-ink">Running groups five days a week uses up topics fast, and the usual lists online mix icebreaker games with substance-use worksheets. These are 78 group topics for adult mental health IOP and PHP programs, sorted by group type: process, skills, psychoeducation, and extra sessions for PHP. Each one stands on its own, so it works in a group where members join on different days.</p>
       <p><a class="btn btn-forest" href="/guides/iop-group-topics/IOP_Group_Topics_List.pdf">Download the printable list (PDF)</a></p>
 
@@ -133,7 +156,7 @@
           <li><a href="#skills">Skills group topics (18)</a></li>
           <li><a href="#psychoed">Psychoeducation group topics (18)</a></li>
           <li><a href="#php">Extra topics for PHP (24)</a></li>
-          <li><a href="#week">Building a week from these lists</a></li>
+          <li><a href="#week">How do I plan a week of IOP groups?</a></li>
           <li><a href="#faq">Common questions</a></li>
         </ol>
       </nav>
@@ -272,15 +295,95 @@
         <li><strong>Adapting a Skill for Daily Life</strong> <span class="code">PH-AP-06</span><br>Fitting a skill into a real situation outside the program.</li>
       </ol>
 
-      <h2 id="week">Building a week from these lists</h2>
-      <p>Most programs rotate through topics rather than running them in a fixed order, because members arrive and leave on different days. A simple way to build a rotation:</p>
-      <ul>
-        <li><strong>Run the skills modules as blocks.</strong> Three sessions per module, one module at a time, so a member who stays for the full program meets every skill area.</li>
-        <li><strong>Spread the process topics.</strong> Keep transition and ending topics (17 and 18 above) for weeks when someone is stepping down.</li>
-        <li><strong>Fit psychoeducation to the census.</strong> If several members are working on panic or sleep, bring those topics forward.</li>
-        <li><strong>Plan for low attendance and holidays.</strong> Decide in advance what runs when only two members show up, so the session still counts.</li>
-      </ul>
-      <p>For how to keep a group like this coherent when membership changes every day, see <a href="/guides/rolling-admission-groups/">How to run a rolling-admission therapy group</a>. To open any of these sessions, pick a prompt from <a href="/guides/group-therapy-check-in-questions/">60 group therapy check-in questions</a>. For the weeks around a winter closure, see <a href="/guides/holiday-group-therapy-topics/">holiday group therapy topics for IOP and PHP groups</a>.</p>
+      <h2 id="week">How do I plan a week of IOP groups?</h2>
+      <p>Plan the week around one skills module and fill the rest of each day around who is in the room. Run one module a week, three sessions, pair each teaching group with a process group, and let the census choose the psychoeducation topics. Because every session on this page stands alone, the week works whoever arrived on Monday.</p>
+      <p class="note">The grids below are a worked example built from the lists above, not a standard and not a copy of any published calendar. Your program's schedule, payer and clinical team decide what a real week looks like.</p>
+
+      <h3>Why a rotation instead of a fixed order?</h3>
+      <p>A rotation works when members arrive and leave on different days; a fixed order does not. In a fixed order, a member who arrives at session 9 starts in the middle of a sequence and never hears sessions 1 to 8. In a rotation the cycle comes back around, so every member eventually meets every area.</p>
+      <p>That is why the two fixed points of the week are small. The skills module is fixed for the week, and each day pairs a teaching group with a process group. Everything else stays open until you have checked who is in the room. For how a rotation works session by session, see <a href="/guides/rolling-admission-groups/">How to run a rolling-admission therapy group</a>.</p>
+
+      <h3>What does a five-day week look like?</h3>
+      <p>A five-day week with two groups a day gives you five process groups, three skills sessions and two psychoeducation sessions. Here is one such week, in the first week of the skills cycle (mindfulness).</p>
+      <div class="week-scroll">
+      <table class="week-grid">
+        <caption>Example IOP week 1: two groups a day, five days</caption>
+        <thead><tr><th scope="col">Day</th><th scope="col">Teaching group</th><th scope="col">Process group</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Monday</th><td>Psychoeducation: Sleep and Mood <span class="code">PE-05</span></td><td>Carrying the Week <span class="code">PR-02</span></td></tr>
+          <tr><th scope="row">Tuesday</th><td>Skills: Observe and Describe <span class="code">SK-MF-01</span></td><td>Trust and Safety Here <span class="code">PR-05</span></td></tr>
+          <tr><th scope="row">Wednesday</th><td>Skills: Grounding When Overwhelmed <span class="code">SK-MF-02</span></td><td>The Inner Critic <span class="code">PR-06</span></td></tr>
+          <tr><th scope="row">Thursday</th><td>Skills: Attention Training <span class="code">SK-MF-03</span></td><td>Frustration and Stuckness <span class="code">PR-04</span></td></tr>
+          <tr><th scope="row">Friday</th><td>Psychoeducation: Loneliness and Meaningful Connection <span class="code">PE-13</span></td><td>Resilience and Quiet Wins <span class="code">PR-10</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>The skills module is the only fixed part of that grid. The two psychoeducation slots are the flexible ones: swap PE-05 or PE-13 for whatever the room needs this week, such as PE-02 if several members are struggling with anxiety. Process topics can repeat from week to week, because what a process group becomes depends on the people in it.</p>
+      <p>Keep PR-17 and PR-18 (transition and endings) out of the general rotation. Bring them in for weeks when someone is stepping down.</p>
+
+      <h3>How long should a full rotation run?</h3>
+      <p>Run the skills modules as a six-week cycle, one module a week. There are six skill areas on this page and three sessions in each, so a member who attends every day for six weeks meets all of them, and the cycle then starts again.</p>
+      <div class="week-scroll">
+      <table class="week-grid">
+        <caption>Six-week skills cycle</caption>
+        <thead><tr><th scope="col">Week</th><th scope="col">Skills module</th><th scope="col">Sessions</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">1</th><td>Mindfulness</td><td><span class="code">SK-MF-01</span> to <span class="code">SK-MF-03</span></td></tr>
+          <tr><th scope="row">2</th><td>Emotion regulation</td><td><span class="code">SK-ER-01</span> to <span class="code">SK-ER-03</span></td></tr>
+          <tr><th scope="row">3</th><td>Distress tolerance</td><td><span class="code">SK-DT-01</span> to <span class="code">SK-DT-03</span></td></tr>
+          <tr><th scope="row">4</th><td>Thoughts (CBT and ACT)</td><td><span class="code">SK-CG-01</span> to <span class="code">SK-CG-03</span></td></tr>
+          <tr><th scope="row">5</th><td>Behavioral activation</td><td><span class="code">SK-BA-01</span> to <span class="code">SK-BA-03</span></td></tr>
+          <tr><th scope="row">6</th><td>Interpersonal effectiveness</td><td><span class="code">SK-IE-01</span> to <span class="code">SK-IE-03</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Set the cycle length from your own program, not from this page. Length of stay differs by program and payer, so look at your own discharge data. If a typical stay is shorter than six weeks, decide which modules you most want every member to meet and put those first, and be clear with the team about which ones a short stay will miss.</p>
+      <p>The Open-Enrollment Program Series also runs its rotation over six weeks. Which module opens the cycle does not matter, because no session depends on an earlier one.</p>
+
+      <h3>How does the plan change for a PHP day?</h3>
+      <p>A PHP day holds more groups, so keep the same teaching-plus-process spine and add PHP groups on top. Do not stretch the IOP grid across a longer day. The example below adds one PHP group to each day; a longer day adds more, drawn from the four PHP families above (daily routines, safety and relapse planning, transition, and practice in the room).</p>
+      <div class="week-scroll">
+      <table class="week-grid">
+        <caption>Example PHP week 1: the IOP spine plus added PHP groups</caption>
+        <thead><tr><th scope="col">Day</th><th scope="col">Same spine as the IOP week</th><th scope="col">Added PHP group</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Monday</th><td><span class="code">PE-05</span> and <span class="code">PR-02</span></td><td>Daily Rhythm Anchors <span class="code">PH-WS-01</span></td></tr>
+          <tr><th scope="row">Tuesday</th><td><span class="code">SK-MF-01</span> and <span class="code">PR-05</span></td><td>Deconstructing the Crisis Trajectory <span class="code">PH-SP-01</span></td></tr>
+          <tr><th scope="row">Wednesday</th><td><span class="code">SK-MF-02</span> and <span class="code">PR-06</span></td><td>Noticing Mild Body Sensations and Grounding <span class="code">PH-AP-02</span></td></tr>
+          <tr><th scope="row">Thursday</th><td><span class="code">SK-MF-03</span> and <span class="code">PR-04</span></td><td>Internal Coping vs. Social Distraction <span class="code">PH-SP-02</span></td></tr>
+          <tr><th scope="row">Friday</th><td><span class="code">PE-13</span> and <span class="code">PR-10</span></td><td>Rest, Withdrawal, and What I Need <span class="code">PH-WS-06</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Place a practice group (PH-AP) on the day of the skill it practices, as with PH-AP-02 on the grounding day. Hold the transition group (PH-TS) topics for step-down weeks, like PR-17 and PR-18. Run the safety and relapse planning groups only within your program's risk procedures. For how many hours a week each level of care involves, and how a PHP day differs, see <a href="/guides/php-vs-iop-group-therapy/">PHP vs IOP group therapy</a>.</p>
+
+      <h3>How does the week change for three or four days?</h3>
+      <p>On a shorter schedule, keep one skills module a week and shrink psychoeducation first. Because the module is the unit, the six-week cycle stays six weeks whether the program runs three days or five. Programs run different numbers of days, and the Open-Enrollment Program Series includes <a href="/clinicians.html">rotation calendars for 3-day IOP, 4-day extended IOP and 5-day PHP programs</a>.</p>
+      <div class="week-scroll">
+      <table class="week-grid">
+        <caption>How the spine adapts to the days a program runs</caption>
+        <thead><tr><th scope="col">Days a week</th><th scope="col">Skills sessions</th><th scope="col">Psychoeducation</th><th scope="col">Process group</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">3</th><td>3, one each day</td><td>None unless your day has a third group; otherwise swap it in for one process group</td><td>Each day</td></tr>
+          <tr><th scope="row">4</th><td>3</td><td>1</td><td>Each day</td></tr>
+          <tr><th scope="row">5</th><td>3</td><td>2</td><td>Each day</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>What do I do about low census, absences and holidays?</h3>
+      <p>When a day is short, drop in a set order so the choice is made before the day, not during it. This is a practice suggestion; follow your program's policy where it has one.</p>
+      <ol>
+        <li><strong>Drop first: extra PHP groups and psychoeducation.</strong> Both are chosen by the room, so nothing depends on them. Move the psychoeducation topic to the next day.</li>
+        <li><strong>Shorten next: the skills session.</strong> Keep one teaching point, one practice and one planned use before the next group.</li>
+        <li><strong>Keep last: the check-in, the process group and the orientation for a first-day member.</strong> They are what makes a small or short group still work as a group.</li>
+      </ol>
+      <p>With only two or three members, run the skills session as a practice conversation rather than a presentation. The topic stays the same; what changes is that each member applies it out loud. Whether a shortened or small group meets your program's or payer's requirements for hours and documentation is a program question, so ask it before you design around it.</p>
+      <p>For absences, let the module slide rather than compress it. A member who misses a session picks it up the next time the cycle comes around, or through a catch-up page if they are stepping down (see <a href="/guides/rolling-admission-groups/#step-down">how to handle a member stepping down mid-rotation</a>). For a closure day, skip that day's slot and resume with the next session the following day, instead of squeezing two sessions into one. For the weeks around a winter closure, see <a href="/guides/holiday-group-therapy-topics/">holiday group therapy topics for IOP and PHP groups</a>.</p>
+
+      <h3>Who decides the plan, and how far ahead should it go?</h3>
+      <p>Who decides varies by program. A common split is that the clinical lead or program director sets the spine and the facilitator chooses the day's topic within it. Plan the spine six weeks ahead, which costs nothing because it is a fixed cycle. Plan the detail of the week one week ahead at most, and confirm each day's psychoeducation and process topic after you have looked at who is in the room.</p>
+      <p>Planning further than that tends to be wasted, because census changes the week. To open any session, pick a prompt from <a href="/guides/group-therapy-check-in-questions/">60 group therapy check-in questions</a>.</p>
 
       <h2 id="faq">Common questions</h2>
       <h3>What is the difference between process, skills and psychoeducation groups?</h3>
@@ -290,6 +393,12 @@
       <p>See <a href="/guides/php-vs-iop-group-therapy/">PHP vs IOP group therapy</a> for what else changes for the facilitator.</p>
       <h3>Can I use these topics in a rolling-admission group?</h3>
       <p>Yes. Every topic on this list is written to stand alone, so it works when new members join on any day. Give each session a short orientation for first-day members and separate reflection questions for first-time and returning members.</p>
+      <h3>How do I plan a week of IOP groups?</h3>
+      <p>Build the week around one skills module, three sessions, and pair every teaching group with a process group. Fill the remaining teaching slots with psychoeducation topics chosen by who is in the room. Because each session stands alone, the plan works when members join on different days. Repeat the six skill modules as a six-week rotation, and adjust it to your program's schedule.</p>
+      <h3>How many groups a day should an IOP run?</h3>
+      <p>There is no single right number. It follows from the length of your program's day and the session length it uses, so check your schedule and payer requirements. If you are planning from scratch, two groups a day is a workable start: one teaching group, skills or psychoeducation, and one process group. Longer days add a third group.</p>
+      <h3>What do I drop first when an IOP group day runs short?</h3>
+      <p>Drop psychoeducation and any extra PHP groups first, because the room chooses them and nothing depends on them. Shorten the skills session next: one teaching point, one practice, one planned use. Keep the check-in, the process group and the first-day orientation last. Whether a shortened day meets your program's or payer's requirements is a question for your program.</p>
 
       <div class="callout">
         <h2>Try three of these sessions with your group</h2>

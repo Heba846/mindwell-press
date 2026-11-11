@@ -28,6 +28,123 @@ photocopy worksheets (commercial), curriculum for rolling admission (commercial)
 
 ---
 
+## 2026-11-09 — weekly run
+
+**Half 1 — one page deepened (done).** `guides/iop-group-topics/` — the question
+bank row "How do I plan a week of IOP groups?" was `partial`: `#week` was four
+generic bullets. It is now "How do I plan a week of IOP groups?" and answers
+head-on: a direct answer first, then why a rotation beats a fixed order, a worked
+five-day IOP grid (PE/SK/PR codes) as a table, a six-week skills-cycle table
+(one module a week), a PHP-day grid that keeps the same spine and adds PH-xx
+groups, a table showing how the spine adapts to 3, 4 and 5 program days, a
+drop-first order for low census / short days, how absences and closures are
+handled, and who decides and how far ahead to plan. Three FAQ entries added
+(verbatim in the visible HTML and the FAQPage schema; 63, 58 and 58 words):
+"How do I plan a week of IOP groups?", "How many groups a day should an IOP
+run?", "What do I drop first when an IOP group day runs short?". `dateModified`
+bumped to 2026-11-09 and byline updated. Inline `.week-grid` CSS added to the
+page's own `<style>` block (no change to `styles.css`). One inbound link
+improved: `php-vs-iop-group-therapy` now links "how to build a week from it" to
+`/guides/iop-group-topics/#week`. Existing cross-links to rolling-admission,
+check-in questions and holiday topics kept. No new page, so no sitemap or guides
+index change. Row moved `partial` to `covered`; `Citations seen` left `—`
+because no audit ran this week. Validator: `FAILURES: NONE`, 35 pages.
+
+**Sources verified this run: none.** Every WebFetch this run (Noridian PHP vs
+IOP, Medicare.gov partial hospitalization, the Nebraska DHHS IOP 2.1 definition,
+SAMHSA TIP 47 on NCBI) returned a provenance/permission error and was not
+retried; nothing was fetched by any other route. No new entry was added to the
+page's Sources list and no claim leans on those pages. The section therefore
+contains no hours-of-care, length-of-stay, payer, authorization or HIPAA number or
+rule. Hours and day length are handed to `/guides/php-vs-iop-group-therapy/`.
+
+**Claims cut or avoided for lack of a source.**
+- Any typical IOP length of stay. The six-week cycle is justified only by the
+  page's own six skill modules, and the text tells the reader to size it from
+  their own discharge data.
+- Any statement of how many hours or days a week IOP or PHP runs, including "many
+  IOPs run three days". Worded as "programs run different numbers of days".
+- Any claim that a shortened or low-census group counts toward required hours,
+  billing or documentation. Written as a program/payer question.
+- Any regulated meaning of "groups per day". The two-groups-a-day figure is
+  framed as a workable planning start, not a standard.
+
+**Needs Heba's eye before merge.**
+- The whole section is the writer's draft in the page's voice. The books are paid
+  PDFs and are not in the repo, so nothing here is taken from the Open-Enrollment
+  Program Series. The grids are a deliberately generic worked example and say so;
+  check them against the series' own 3-day IOP, 4-day extended IOP and 5-day PHP
+  calendars (described on `clinicians.html`) and swap in her wording or structure
+  where they differ. In particular, the series' 5-day calendar is for PHP, while
+  this page's five-day example is written as an IOP week.
+- The "six-week" cycle matches the six-week rotation stated on `clinicians.html`
+  but the module order (mindfulness first) is only an example.
+- Drop-first order and "who decides" are practice suggestions with no source.
+- Pre-existing, not touched: the FAQ "How many groups does an IOP or PHP day
+  usually include?" on this page, and the "Typical day" row on
+  `php-vs-iop-group-therapy` ("about three hours, often two or three groups,
+  three or four days a week"), state figures that are not tied to a source in the
+  Sources lists and could not be re-verified this run. Worth sourcing or hedging.
+
+**Primary source verified this run (by the orchestrator, after the writer's
+fetches all failed).** CMS Transmittal 12425 (CR 13496), 21 December 2023,
+`cms.gov/files/document/r12425bp.pdf` — the transmittal that adds §70.4 and
+revises §70.3 of the *Medicare Benefit Policy Manual*, Pub. 100-02, chapter 6.
+Fetched twice, independently, and the two quoted thresholds confirmed both times:
+PHP requires a plan of care evidencing the need for "a minimum of 20 hours per
+week of therapeutic services" (§70.3), and IOP "a minimum of 9 hours per week of
+services" (§70.4). This closes an item left open on 2026-11-02, when chapter 6
+§70.3 could not be reached.
+
+Applied to `guides/php-vs-iop-group-therapy/` only, and only as an attribution
+upgrade — **the numbers on the page did not change**. They were previously
+credited to a Medicare Administrative Contractor's comparison; they are now
+attributed to the Benefit Policy Manual itself, with the section numbers named in
+the sentence (per CLAUDE.md's "name the source in the sentence"). The manual was
+added to that page's Sources list above the Noridian entry, which stays. The
+page's `dateModified` and byline were bumped. No FAQ text was touched on that
+page, so no schema/visible pair moved.
+
+**Half 2 — audit NOT run, on hold (second week running).** No browser tool exists
+in this session: there is no Chrome connector on the account at all, and a
+scheduled cloud run has no link to Heba's computer, so this is structural, not an
+outage. Google AI Overviews and ChatGPT answers cannot be read with `WebSearch`
+or `WebFetch`, so per the auditor brief nothing was substituted, no account was
+created, and **no `Citations seen` cell was touched**. The two-question harvest
+from real facilitator posts also did not run — it is part of the auditor's pass.
+Filed as one row in the Notion hold queue, "AEO audit — thoughtkindpress
+2026-11-09", Status `On hold`, Attempts 1, due 2026-11-16. Say "نفذ المتعطل"
+with Chrome open.
+
+**Correction to the 2026-11-02 entry.** That entry says the audit was blocked and
+left on hold. It was in fact run the next day: the hold-queue row
+"AEO audit — thoughtkindpress 2026-11-02" is `Done`, Attempts 3, and records that
+on 2026-11-03 Google and a signed-in ChatGPT were checked for the six oldest
+Documentation questions — no AI Overviews, `thoughtkindpress.com` not cited —
+with `audits/2026-11-03.md`, a question-bank update and a run-log entry on branch
+`aeo-audit-2026-11-03`. **That work is in PR #6 and is still unmerged**, which is
+why none of it appears on `main` and why the `Citations seen` column here still
+reads 2026-11-02. A future run should not re-audit those six questions before
+#6 merges, or it will redo work that already exists.
+
+**Open PRs are accumulating — worth a decision.** As of this run, three are open
+against `main` and none is merged: #4 (2026-11-02, question-bank status fixes),
+#6 (2026-11-03, the Half 2 audit above) and #8 (2026-11-06, "Add guide: group
+therapy icebreakers for adults" — note that no question-bank row corresponds to
+it, so it did not come from this weekly cadence). This run's PR makes four. The
+risk is not the branches themselves but that `main` no longer reflects what has
+been checked, so each run plans against a stale question bank.
+
+**Measurement.** No new measurement this run, and none claimed. The baseline from
+2026-11-02 (GA4 property 559500373, 5 Oct – 1 Nov 2026: 149 sessions,
+`chatgpt.com` 6 sessions / 100% engagement, `perplexity.ai` and
+`gemini.google.com` zero; Gumroad starter pack 1 free sale) still stands as the
+only before. No after-window can be read yet, and not merely because time is
+short: most of the work from the last two runs is sitting in unmerged PRs, so the
+live site does not yet contain the changes any lift would be attributed to.
+
+---
+
 ## 2026-11-03 — Half 2 audit run (hold-queue rerun)
 
 Checked the six oldest Documentation questions on Google (logged out) and
