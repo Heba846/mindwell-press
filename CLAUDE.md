@@ -6,8 +6,12 @@ push to `main` is a live publish.
 
 ## Ground rules
 
-- **Never push to `main` without being asked.** Work on a branch and open a PR.
-  Heba merges.
+- **Never commit straight to `main`.** Work on a branch and open a PR. Since
+  Nov 12, 2026 Heba lets Claude merge its own PR (merge commit via the GitHub
+  API, never force-push) once `python3 -I tools/validate.py` prints
+  `FAILURES: NONE` and every new claim in the diff is sourced. Anything that
+  needs her judgment (her book wording, a claim that could not be verified, a
+  price or offer change) is flagged in the PR and left for her to merge.
 - **No new clinical claim without a source.** Every factual statement about
   levels of care, documentation, HIPAA, hours or payer rules needs a citation in
   the page's `Sources` list, fetched and verified in the same session. If a claim
