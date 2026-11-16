@@ -5,6 +5,129 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-16 — weekly run: auditor-checklist section on the progress-notes guide; audit half on hold
+
+**Open PRs at the start of this run: none.** The Nov 12 backlog is fully cleared —
+nothing was sitting unmerged, so nothing had to be rescued. First clean start in
+three weeks.
+
+**Half 1 — one page deepened (done).** `guides/group-therapy-progress-notes/` — the
+question-bank row "What do auditors look for in group therapy progress notes?" was
+a `gap` with no page. The 2026-11-03 audit had flagged it as one of the two
+clearest gaps (no AI Overview, top organic clinicaldocslibrary.com, ChatGPT citing
+CMS), which made it a deepen rather than a new URL: the citable answer is the one
+that quotes the actual CMS rules and names them in the sentence. New
+`<h2 id="audit">` section between `#mistakes` and `#phrases`, in the toc, with: the
+direct answer first; a 7-row table ("What the auditor checks" / "What the note must
+therefore show"); what a real audit sample cited; the rolling-admission
+identical-notes problem, cross-linked to this page's own `#mixed` and `#others`;
+the US Medicare PHP dates and signatures; an invented fail-note and the same note
+rewritten to pass, both labelled fictional; and a non-US subsection. Three FAQ
+entries added (verbatim in the visible HTML and the FAQPage schema; 64, 67 and 57
+words). Inline `.audit-table` CSS in the page's own `<style>` block — `styles.css`
+untouched, so no `?v=` bump anywhere. `dateModified` bumped to 2026-11-16 and the
+byline updated (collapsed to a single "Updated" date, matching the convention on
+`php-vs-iop-group-therapy` and `iop-group-topics`). No new page, so no sitemap or
+guides-index change. Row moved `gap` → `covered`; `Citations seen` left exactly as
+it was, because no audit ran this week. Validator: `FAILURES: NONE`, 39 pages.
+
+**Primary sources verified this run: four, all fetched by the orchestrator before
+the writer started.** Doing the verification up front was deliberate — on
+2026-11-09 every one of the writer's fetches failed on provenance errors and the
+section had to be written around the gap. All four were confirmed this session:
+
+- **CMS Billing and Coding Article A56850, Psychiatric Partial Hospitalization
+  Programs** (revision effective 2026-04-01, original 2019-11-14). This is where
+  the PHP documentation requirements now live — LCD L33626 no longer carries them,
+  which is worth knowing for future runs. Confirmed: a separate progress note is
+  required for each service rendered; group documentation must indicate the name of
+  the group and the group type, plus the material and the patient's response; the
+  response must relate to the long or short term goals; each note legible, dated,
+  signed, with the rendering provider's credentials; the record must fully support
+  medical necessity; initial evaluation in the chart within 48 hours; first
+  recertification as of the 18th day, later ones no less often than every 30 days,
+  signed by a treating physician; plan reviewed never less than every 31 days.
+- **CMS Medicare Learning Network, "Outpatient Psychiatric Care" compliance tips**
+  (page last modified 2026-02-11). Confirmed: insufficient documentation accounted
+  for 78.3% of improper payments for psychiatry services in the 2024 reporting
+  period; the plan must state the type, amount, frequency and duration of services;
+  it must clearly justify the need for each therapy.
+- **HHS OIG report A-02-13-01029** (issued 2016-12-27), New Jersey Medicaid **adult**
+  mental health partial care. Confirmed: 92 of 100 sampled claims noncompliant, 19
+  of those with more than one deficiency, and the five deficiency categories. Note
+  for future runs: the first OIG report that surfaces on this topic (A-02-16-01008)
+  is the **children's** PHP audit — wrong population for this site. The adult report
+  is the one to cite.
+- **UK: Health and Social Care Act 2008 (Regulated Activities) Regulations 2014,
+  regulation 17(2)(c)**. Confirmed wording: maintain securely an accurate, complete
+  and contemporaneous record in respect of each service user. Labelled on the page as
+  **England**, not "the UK" — these regulations apply to England only.
+
+Every US rule on the page is labelled US in the sentence. Nothing was invented for
+Ireland, Canada, Australia or New Zealand; those readers are told to ask their own
+programme for its documentation standard, and the transferable point is framed as
+principles (individual, contemporaneous, tied to a plan, signed) rather than rules.
+
+**Claims cut this run for lack of a source.**
+- The CMS error-category breakdown (missing documentation 17%, incorrect coding
+  2.6%, other 2%). Those figures do not sum to the stated 16.1% improper payment
+  rate and the page does not say what each is a share of, so only the 78.3% figure
+  is used. Worth resolving if the breakdown is ever wanted.
+- That auditors specifically flag copied, cloned or duplicated notes. None of the
+  four sources says it. The identical-notes argument is presented on the page as the
+  reasoning behind the checklist, explicitly not as a quoted rule.
+- Any Irish, Canadian, Australian or New Zealand documentation rule.
+- "Each member" as part of the A56850 quote. The article's wording is "each service
+  rendered"; one-note-per-member stays the page's own existing advice, not a quote.
+
+**Needs Heba's eye (not blocking — the PR was merged, since every regulatory claim
+is sourced and nothing in it is her book wording misattributed).** All new prose is
+the writer's draft in the page's voice; the books are paid PDFs and are not in the
+repo, so nothing is lifted from the Open-Enrollment Program Series. Specifically
+worth her read: the table's right-hand column wording and the "Skills group" /
+"Process group" examples; the line "a note that refers to a plan that was never
+reviewed on time weakens the whole chart", which is an inference rather than a
+sourced claim; the day-one vs week-three contrast in the rolling-admission
+paragraph; and the three FAQ answers. The fail/pass worked example reuses this
+page's own existing example 1 for the pass note, so that part is her wording.
+
+**Question bank is drifting out of step with `main` — worth a cleanup next run.**
+Four guides exist on `main` that the bank does not reflect:
+`telehealth-group-therapy-activities` (merged Nov 13, but its row and "How do I run
+a skills group over video?" both still read `gap`), plus
+`group-therapy-icebreakers-for-adults`, `group-therapy-termination-activities` and
+`group-therapy-ground-rules`, which have no rows at all. The telehealth guide also
+jumped the roadmap queue from the week of 2026-12-07. Left untouched this run
+rather than edited blind — the rule is one page per run, and rewriting rows for
+pages this run did not inspect is how a bank stops being trustworthy.
+
+**Roadmap slip.** The week of 2026-11-09's new guide (conflict between two group
+members) was never written, and this week's roadmap row (a member who is sedated or
+in cognitive fog) was not taken either — this run did the paired deepen instead,
+which is the stronger single item given the audit evidence. Both gap rows are still
+open.
+
+**Half 2 — audit NOT run, on hold (third week running).** Structural, not an
+outage: there is no browser tool in this session, no Chrome connector on the
+account, and a scheduled cloud run has no link to Heba's computer. AI Overviews and
+ChatGPT answers cannot be read with `WebSearch` or `WebFetch`, so per the auditor
+brief nothing was substituted, no account was created, and **no `Citations seen`
+cell was touched**. The two-question harvest from real facilitator posts also did
+not run — it belongs to the auditor's pass. Filed as one row in the Notion hold
+queue, "AEO audit — thoughtkindpress 2026-11-16", Status `On hold`, Attempts 1, due
+2026-11-23. Say "نفذ المتعطل" with Chrome open.
+
+**Measurement.** No new measurement this run, and none claimed. The 2026-11-02
+baseline (GA4 property 559500373, 5 Oct – 1 Nov 2026: 149 sessions, `chatgpt.com` 6
+sessions / 100% engagement, `perplexity.ai` and `gemini.google.com` zero; Gumroad
+starter pack 1 free sale) is still the only before, and no after-window has been
+read. What changed since 2026-11-12 is that the backlog cleared, so the live site
+now actually contains the work any lift would be attributed to — an after-window
+read is finally meaningful. It needs Heba's GA4 and Gumroad, which a cloud run
+cannot reach.
+
+---
+
 ## 2026-11-12 — new market test: harm reduction groups for AOD day programs (AU/CA/IE)
 
 Heba asked to test facilitators outside the US (Australia, Canada, Ireland) before writing an addiction-focused book. Research this session: Australia's National Drug Strategy 2017–2026 is built on harm minimisation; Canada's CDSS lists harm reduction among substance use services; Ireland's SAOL "Reduce the Use" lets participants choose no change, cutting down or stopping; existing books found were therapy texts, self-help workbooks or closed-cohort manuals, not session-ready rolling-admission group material (not an exhaustive Amazon search).

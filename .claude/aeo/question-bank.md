@@ -42,7 +42,7 @@ specifics do the work.
 | How do I write a progress note for each member of a group? | covered | /guides/group-therapy-progress-notes/ | checked 2026-11-03, no AIO, top organic: Berries AI; ChatGPT no sources |
 | How do I document a member who did not speak in group? | covered | /guides/when-nobody-talks-in-group/ | checked 2026-11-03, no AIO, results off-intent (meetings/classroom); ChatGPT no sources |
 | Are group therapy notes the same as HIPAA psychotherapy notes? | covered | /guides/group-therapy-progress-notes/ | checked 2026-11-03, no AIO, top organic: Twofold Health; ChatGPT cited HHS.gov |
-| What do auditors look for in group therapy progress notes? | gap | — | checked 2026-11-03, no AIO, top organic: clinicaldocslibrary.com; ChatGPT cited CMS |
+| What do auditors look for in group therapy progress notes? | covered | /guides/group-therapy-progress-notes/ | checked 2026-11-03, no AIO, top organic: clinicaldocslibrary.com; ChatGPT cited CMS |
 | How long should a group therapy progress note be? | gap | — | checked 2026-11-03, no AIO, top organic: AutoNotes; ChatGPT no sources |
 
 ## Rolling admission and level of care
