@@ -77,6 +77,10 @@ principles (individual, contemporaneous, tied to a plan, signed) rather than rul
   four sources says it. The identical-notes argument is presented on the page as the
   reasoning behind the checklist, explicitly not as a quoted rule.
 - Any Irish, Canadian, Australian or New Zealand documentation rule.
+- "A note that refers to a plan that was never reviewed on time weakens the whole
+  chart." Cut at review: it is a statement about documentation with no source
+  behind it, and the rule is to cut rather than soften. The dates paragraph now
+  stops at "your progress note is where the evidence lands".
 - "Each member" as part of the A56850 quote. The article's wording is "each service
   rendered"; one-note-per-member stays the page's own existing advice, not a quote.
 
@@ -85,10 +89,8 @@ is sourced and nothing in it is her book wording misattributed).** All new prose
 the writer's draft in the page's voice; the books are paid PDFs and are not in the
 repo, so nothing is lifted from the Open-Enrollment Program Series. Specifically
 worth her read: the table's right-hand column wording and the "Skills group" /
-"Process group" examples; the line "a note that refers to a plan that was never
-reviewed on time weakens the whole chart", which is an inference rather than a
-sourced claim; the day-one vs week-three contrast in the rolling-admission
-paragraph; and the three FAQ answers. The fail/pass worked example reuses this
+"Process group" examples; the day-one vs week-three contrast in the
+rolling-admission paragraph; and the three FAQ answers. The fail/pass worked example reuses this
 page's own existing example 1 for the pass note, so that part is her wording.
 
 **Question bank is drifting out of step with `main` — worth a cleanup next run.**
