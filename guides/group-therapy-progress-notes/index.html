@@ -18,6 +18,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css?v=20261029c">
+  <style>
+    .audit-table{width:100%;border-collapse:collapse;margin:16px 0}
+    .audit-table th,.audit-table td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid rgba(0,0,0,.15)}
+    .audit-table thead th{border-bottom:2px solid currentColor}
+  </style>
   <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -67,7 +72,7 @@
     "@id": "https://thoughtkindpress.com/#org"
    },
    "datePublished": "2026-10-22",
-   "dateModified": "2026-11-02",
+   "dateModified": "2026-11-16",
    "mainEntityOfPage": "https://thoughtkindpress.com/guides/group-therapy-progress-notes/",
    "inLanguage": "en",
    "image": "https://thoughtkindpress.com/assets/covers/vol1-share.jpg",
@@ -120,6 +125,30 @@
      "acceptedAnswer": {
       "@type": "Answer",
       "text": "Required fields are set by your program, your state and the payer, so check your documentation policy first. Most group notes cover the basics (date, group type and code, times, format and clinician), the specific goal from this member's plan, what you delivered, this member's response, and a plan with a next step or a clear note that none was chosen, plus follow-up and who owns it."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do auditors look for in group therapy progress notes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Auditors check whether each note proves that the billed service happened, was medically necessary and was individual to that member. In US Medicare's partial hospitalization article, a group note must show the group name and type, the material discussed, the patient's response and the link to treatment goals, and be legible, dated and signed with credentials. Payer rules differ, so follow your program's policy."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it a problem if every group member's progress note is identical?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, it is a risk. A note has to record this member's response and how it relates to this member's goals, and eight people rarely respond in the same way. The intervention line can be shared across the group, but the response and the plan should be written for one person. Identical response lines make it hard to show the service was individual. Follow your program's policy."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a group therapy progress note have to name the group and what was covered?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Under US Medicare's partial hospitalization billing article, yes. Documentation of group therapy sessions must indicate the name of the group and the group type, plus the material discussed and the patient's response. Other payers and other countries set their own fields, so check your program's policy and your payer's requirements before you change how you write notes."
      }
     }
    ]
@@ -177,7 +206,7 @@
     <div class="wrap prose">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / <span aria-current="page">Group therapy progress notes</span></nav>
       <h1>Group therapy progress notes: GIRP and DAP examples for IOP and PHP groups</h1>
-      <p class="byline">By <a href="/about/">Heba El Garhy</a> · Published October 22, 2026 · Updated November 2, 2026 · <a href="/about/#editorial">Editorial standards</a></p>
+      <p class="byline">By <a href="/about/">Heba El Garhy</a> · Published October 22, 2026 · Updated November 16, 2026 · <a href="/about/#editorial">Editorial standards</a></p>
       <p class="lede-ink">Eight people were in the room, so you owe eight notes, and each one has to be about one person. This guide shows what a group progress note needs, how GIRP and DAP differ, and three worked examples from an adult IOP group, including the member who only watched. The free printable template is just below.</p>
 
       <div class="callout" style="margin-top:28px">
@@ -196,6 +225,7 @@
           <li><a href="#examples">Three worked examples</a></li>
           <li><a href="#mixed">Writing notes for a rolling-admission group</a></li>
           <li><a href="#mistakes">Common mistakes</a></li>
+          <li><a href="#audit">What do auditors look for in group therapy progress notes?</a></li>
           <li><a href="#phrases">Useful phrases: observed vs reported</a></li>
           <li><a href="#faq">Common questions</a></li>
         </ol>
@@ -273,6 +303,64 @@
         <li><strong>Leaving out risk because group moved on.</strong> If something raised a safety concern, document what you observed, what you did and who you handed it to, according to your program's procedure. The progress note doesn't replace that procedure.</li>
       </ul>
 
+      <h2 id="audit">What do auditors look for in group therapy progress notes?</h2>
+      <p>Auditors check whether each note proves that the billed service happened, was medically necessary, was individual to this member and ties to this member's plan goals. The US Centers for Medicare &amp; Medicaid Services (CMS) reports that insufficient documentation accounted for 78.3% of improper payments for psychiatry services in its 2024 reporting period. The note is the evidence.</p>
+      <p>Most of what follows is US payer rules, and it is labelled that way. If you work in a day programme outside the US, read the last paragraph of this section first.</p>
+
+      <h3>What does a US Medicare auditor check in a group note?</h3>
+      <p>US Medicare's billing and coding article for psychiatric partial hospitalization programs (A56850) requires a separate progress note for each service rendered. For group therapy it says the documentation must indicate the name of the group and the group type, and it must also record the material discussed and the patient's response. The table turns those requirements into a checklist.</p>
+      <table class="audit-table">
+        <thead><tr><th>What the auditor checks</th><th>What the note must therefore show</th></tr></thead>
+        <tbody>
+        <tr><th scope="row">Each billed service has its own note</th><td>A separate note for each service rendered, in this member's record, not one summary for the room.</td></tr>
+        <tr><th scope="row">The service was a group, and which one</th><td>The name of the group and the group type, for example "Skills group" or "Process group".</td></tr>
+        <tr><th scope="row">What the service contained</th><td>The material discussed or taught, in plain words that say what happened in the session.</td></tr>
+        <tr><th scope="row">This member's response</th><td>The patient's response to the intervention: what you observed, what the member reported, including watching or passing.</td></tr>
+        <tr><th scope="row">The link to the plan</th><td>How that response relates to the patient's long or short term goals. This is where a GIRP "G" does its work.</td></tr>
+        <tr><th scope="row">The note is authenticated</th><td>Legible, dated and signed, with the credentials of the rendering provider.</td></tr>
+        <tr><th scope="row">The record supports medical necessity</th><td>The chart as a whole fully supports the medical necessity of the services, and the plan states the type, amount, frequency and duration of each service.</td></tr>
+        </tbody>
+      </table>
+      <p>The last row combines two sources. The medical-necessity wording is from A56850. The treatment plan wording is from CMS's Medicare Learning Network compliance tips for outpatient psychiatric care, which also says the plan must clearly justify the need for each therapy and explain how it fits into the patient's treatment.</p>
+
+      <h3>What does an audit sample actually cite?</h3>
+      <p>In one US federal audit of one state's Medicaid adult partial care claims, 92 of 100 sampled claims did not comply with requirements. The HHS Office of Inspector General (report A-02-13-01029, December 2016, New Jersey) found 19 of those 92 claims had more than one deficiency. This is one state, one program and one audit, so treat it as evidence of what reviewers sample for, not as a national rule.</p>
+      <p>The deficiencies it listed were services not documented or supported, services not provided by or under the direction of a psychiatrist, individualized plan-of-care requirements not met, weekly progress notes not documented, and the provider not having an applicable intake assessment. Four of the five are about the chart around the note: the plan, the intake, the supervision and the note's existence.</p>
+
+      <h3>Why do identical notes matter in a rolling-admission group?</h3>
+      <p>In a rolling-admission group, ten people sit through the same session at different points in treatment, so the intervention is shared and the note's job is to show what was different for this member. A note that could be pasted into any chart does not show a response or a goal link for this person, and those are the two elements the Medicare article asks for.</p>
+      <p>The sources above do not discuss copied notes by name, so this is the reasoning behind the checklist rather than a quoted rule. The practical fix is to share the intervention line and write the response and plan for one person: a day-one member's response is orientation and watching, and a week-three member's is applying the skill to a current situation. The <a href="#mixed">rolling-admission section</a> shows both routes. To do it without writing about other members, use the approach in <a href="#others">Keep other members out of the note</a>: describe your observation of this member and what you did.</p>
+
+      <h3>Which dates and signatures does an auditor look for?</h3>
+      <p>Under US Medicare's partial hospitalization rules, the key dates are the initial psychiatric evaluation, the first recertification and the treatment plan review. Your program tracks these, and your progress note is where the evidence lands.</p>
+      <ul>
+        <li><strong>Initial psychiatric evaluation:</strong> A56850 says it must be performed and placed in the chart within 48 hours of admission.</li>
+        <li><strong>First recertification:</strong> required as of the 18th day of partial hospitalization services, with later recertifications at provider-set intervals no less often than every 30 days, and signed by a physician who is treating the patient.</li>
+        <li><strong>Treatment plan review:</strong> goals must be measurable, functional, time-framed and tied to the reason for admission, and the plan is reviewed never less often than every 31 days.</li>
+      </ul>
+      <p>These are US Medicare PHP rules. An IOP, a Medicaid program or a private payer may use different intervals, so use your own program's schedule.</p>
+
+      <h3>What does a note that fails a sample look like, and how do you fix it?</h3>
+      <p>A note fails when it could describe any member of any group. This example is fictional, and the group, the member and the details are invented. First, the note as it might be found in a sample.</p>
+      <blockquote class="script">
+        <p><strong>Fictional note that fails:</strong> "Member attended group and participated well. Group covered coping skills. Continue group." [no date, no signature]</p>
+      </blockquote>
+      <p>It has no group name or type, no material, no response, no link to a goal, no plan and no authentication. "Participated well" and "continue group" describe attendance and a schedule, not this member's progress. The same session, rewritten for the same fictional member:</p>
+      <blockquote class="script">
+        <p><strong>Fictional note that passes:</strong> 11/09/2026, 10:00 to 11:30. Skills group (adult IOP, in person).</p>
+        <p><strong>G:</strong> Notice links between thoughts, feelings and actions when work stress rises (member's plan, short-term goal 2).</p>
+        <p><strong>I:</strong> Taught the thought-feeling-behavior chain and five common thinking traps; led a group chain on a made-up example, then offered optional personal practice.</p>
+        <p><strong>R:</strong> Member completed a chain aloud on a recent work email and identified "mind reading" in the thought "My manager thinks I'm incompetent." Stated the chain was "easier to see written down."</p>
+        <p><strong>P:</strong> Member chose to note one thinking trap per day on the worksheet. Facilitator to review at next skills group.</p>
+        <p>[Legible signature, credentials, date]</p>
+      </blockquote>
+      <p>Same session, same intervention line another member might share. The response and plan belong to one person, and the goal link is visible. Nothing in it names another member.</p>
+
+      <h3>What if I work outside the US?</h3>
+      <p>The CMS and OIG rules above are US payer rules and do not apply elsewhere. For England, regulation 17 of the Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 requires providers to maintain securely an accurate, complete and contemporaneous record in respect of each service user, including a record of the care and treatment provided and of decisions taken about it.</p>
+      <p>The transferable point is that the principles an auditor tests are the same where the payer rules are not: the note is individual to one person, written at the time, tied to a plan, and signed. For Ireland, Canada, Australia and New Zealand, ask your programme for its own documentation standard, because this page does not cite one.</p>
+      <p>Whichever country you are in, follow your own program's policy and your payer's requirements. They decide the fields, the intervals and who signs.</p>
+
       <h2 id="phrases">Useful phrases: observed vs reported</h2>
       <table class="license-table">
         <tr><th>Observed</th><td>Member completed… · demonstrated… · wrote… · watched the example · passed on the share · left at [time] · returned at [time]</td></tr>
@@ -292,6 +380,12 @@
       <p>No. Under the HIPAA Privacy Rule, psychotherapy notes are a clinician's notes documenting or analyzing a counseling session, kept separate from the rest of the medical record. The definition excludes items such as session start and stop times and summaries of symptoms, treatment plan and progress. A group progress note lives in the record. This guide is educational, not legal advice.</p>
       <h3>What should every group therapy progress note include?</h3>
       <p>Required fields are set by your program, your state and the payer, so check your documentation policy first. Most group notes cover the basics (date, group type and code, times, format and clinician), the specific goal from this member's plan, what you delivered, this member's response, and a plan with a next step or a clear note that none was chosen, plus follow-up and who owns it.</p>
+      <h3>What do auditors look for in group therapy progress notes?</h3>
+      <p>Auditors check whether each note proves that the billed service happened, was medically necessary and was individual to that member. In US Medicare's partial hospitalization article, a group note must show the group name and type, the material discussed, the patient's response and the link to treatment goals, and be legible, dated and signed with credentials. Payer rules differ, so follow your program's policy.</p>
+      <h3>Is it a problem if every group member's progress note is identical?</h3>
+      <p>Yes, it is a risk. A note has to record this member's response and how it relates to this member's goals, and eight people rarely respond in the same way. The intervention line can be shared across the group, but the response and the plan should be written for one person. Identical response lines make it hard to show the service was individual. Follow your program's policy.</p>
+      <h3>Does a group therapy progress note have to name the group and what was covered?</h3>
+      <p>Under US Medicare's partial hospitalization billing article, yes. Documentation of group therapy sessions must indicate the name of the group and the group type, plus the material discussed and the patient's response. Other payers and other countries set their own fields, so check your program's policy and your payer's requirements before you change how you write notes.</p>
 
       <div class="callout">
         <h2>A note starter or documentation cue for all 82 sessions</h2>
@@ -305,6 +399,10 @@
         <li><i>Group Therapy Notes Tip Sheet</i> (undated; posted 2024), summarizing California DHCS Medi-Cal requirements. <a href="https://www.sf.gov/sites/default/files/2024-01/Group%20Notes%20Tip%20Sheet%202024.cleaned.pdf">sf.gov (PDF)</a></li>
         <li>Substance Abuse and Mental Health Services Administration. TIP 41: Substance Abuse Treatment: Group Therapy (2005; HHS Publication No. SMA15-3991, 2015). <a href="https://library.samhsa.gov/product/tip-41-substance-abuse-treatment-group-therapy/sma15-3991">library.samhsa.gov</a></li>
         <li>American Group Psychotherapy Association, Science to Service Task Force. Practice Guidelines for Group Psychotherapy (updated online edition). <a href="https://agpa.org/guidelines-ethics/practice-guidelines-for-group-psychotherapy-2/">agpa.org</a></li>
+        <li>Centers for Medicare &amp; Medicaid Services. Billing and Coding Article A56850: Psychiatric Partial Hospitalization Programs (US Medicare; revision effective April 1, 2026; original effective November 14, 2019). <a href="https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56850">cms.gov</a></li>
+        <li>Centers for Medicare &amp; Medicaid Services, Medicare Learning Network. Outpatient Psychiatric Care: provider compliance tips (US Medicare; page last modified February 11, 2026). <a href="https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/outpatient-psychiatric-care">cms.gov</a></li>
+        <li>U.S. Department of Health and Human Services, Office of Inspector General. Report A-02-13-01029: New Jersey Medicaid adult mental health partial care services (December 27, 2016; one state's Medicaid program). <a href="https://oig.hhs.gov/oas/reports/region2/21301029.asp">oig.hhs.gov</a></li>
+        <li>UK Government. The Health and Social Care Act 2008 (Regulated Activities) Regulations 2014, regulation 17 (good governance), paragraph (2)(c). <a href="https://www.legislation.gov.uk/ukdsi/2014/9780111117613/regulation/17">legislation.gov.uk</a></li>
       </ul>
       <p class="fineprint">The examples are fictional and are excerpts, not complete notes. This guide is educational. It is not legal, billing or compliance advice, and it doesn't replace your program's documentation policy, your payer's requirements, supervision or clinical judgment. Adapted from <i>Mental Health Group Therapy Curriculum for IOP and PHP</i> (Volume 1 of the Open-Enrollment Program Series).</p>
     </div>
