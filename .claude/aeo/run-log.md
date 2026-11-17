@@ -5,6 +5,28 @@ changed, what is waiting. Never record a measurement that was not actually taken
 
 ---
 
+## 2026-11-17 — audit run from Chrome (six questions, Google and ChatGPT)
+
+Ran with Chrome available. `.claude/aeo/audits/2026-11-17.md` has the detail. Six
+questions with empty `Citations seen`: check-in questions, closing activities,
+grounding exercises, nobody talks, PHP curriculum (commercial), IOP vs PHP hours.
+
+- **Google (signed-in Chrome): AI Overview appeared for all six.**
+- **thoughtkindpress.com was not cited in any AI Overview or ChatGPT answer.** It
+  ranks first organic for "what do I do when nobody talks in group therapy"; Google's
+  overview there answers the participant question, ours answers the facilitator's.
+  An Amazon listing for the curriculum book ranks for the PHP curriculum query.
+- **ChatGPT (signed in, web search on): checked for all six.** The PHP curriculum
+  answer named Heba's 82-session curriculum from account memory; not an independent
+  citation. Closing activities was re-read from scratch after a first read was
+  interrupted by a stray tab navigation.
+- No statuses changed. No site page edited. Real-question harvest not run.
+- Still open from the 2026-11-16 entry: the bank is out of step with `main` for
+  several guides; not touched here. Hold-queue row for the 2026-11-16 audit can be
+  marked done once this PR is reviewed.
+
+---
+
 ## 2026-11-16 — weekly run: auditor-checklist section on the progress-notes guide; audit half on hold
 
 **Open PRs at the start of this run: none.** The Nov 12 backlog is fully cleared —

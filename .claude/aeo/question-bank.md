@@ -53,7 +53,7 @@ specifics do the work.
 | How do I orient a new member to an ongoing group? | covered | /guides/orient-new-member-therapy-group/ | checked 2026-11-11, AIO: getzestlife.com first; ChatGPT cited aristarecovery.com |
 | Group facilitation advice for adding new member to an established group? (real r/therapists thread title, seen in Google results 2026-11-11) | covered | /guides/orient-new-member-therapy-group/ | — |
 | What is the difference between PHP and IOP groups? | covered | /guides/php-vs-iop-group-therapy/ | checked 2026-11-11, AIO: Charlie Health first, 8 provider sites; ChatGPT not checked |
-| How many hours a week is an IOP vs a PHP? | covered | /guides/php-vs-iop-group-therapy/ | — |
+| How many hours a week is an IOP vs a PHP? | covered | /guides/php-vs-iop-group-therapy/ | checked 2026-11-17, AIO: Lakeside first; ChatGPT cited CMS |
 | Open vs closed therapy groups: which is better? | gap | — | — |
 | How do I handle a member stepping down mid-rotation? | covered | /guides/rolling-admission-groups/ | — |
 
@@ -62,9 +62,9 @@ specifics do the work.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | IOP group therapy topics list | covered | /guides/iop-group-topics/ | checked 2026-11-11, AIO: intoactionrecovery.us first (partly read); ChatGPT not checked |
-| Group therapy check-in questions for adults | covered | /guides/group-therapy-check-in-questions/ | — |
-| Group therapy closing activities | covered | /guides/group-therapy-closing-activities/ | — |
-| Grounding exercises for group therapy | covered | /guides/grounding-exercises-for-group-therapy/ | — |
+| Group therapy check-in questions for adults | covered | /guides/group-therapy-check-in-questions/ | checked 2026-11-17, AIO: Mind Remake Project / Advanced HPG; ChatGPT cited AGPA, UChicago guide |
+| Group therapy closing activities | covered | /guides/group-therapy-closing-activities/ | checked 2026-11-17, AIO: Southlake first; ChatGPT cited SAMHSA TIP 41, AGPA |
+| Grounding exercises for group therapy | covered | /guides/grounding-exercises-for-group-therapy/ | checked 2026-11-17, AIO: Healthline first (partly read); ChatGPT cited NCBI/PMC, cewh.ca |
 | Holiday group therapy topics | covered | /guides/holiday-group-therapy-topics/ | — |
 | DBT skills group activities for adults | gap | — | — |
 | Psychoeducation group topics for mental health IOP | partial | /guides/iop-group-topics/ | — |
@@ -75,7 +75,7 @@ specifics do the work.
 | Question | Status | Page | Citations seen |
 |---|---|---|---|
 | What do I do when a group member monopolises the session? | covered | /guides/group-member-monopolizes/ | checked 2026-11-11, AIO: Groups in Private Practice first (partly read); ChatGPT not checked |
-| What do I do when nobody talks in group therapy? | covered | /guides/when-nobody-talks-in-group/ | — |
+| What do I do when nobody talks in group therapy? | covered | /guides/when-nobody-talks-in-group/ | checked 2026-11-17, AIO: My People Patterns first (participant-oriented), site not cited but ranks #1 organic; ChatGPT cited WHO, SAMHSA |
 | What do I say when members say we have done this already? | covered | /guides/rolling-admission-groups/ | — |
 | How do I handle conflict between two group members? | gap | — | — |
 | What do I do if a check-in reveals risk of harm? | partial | /guides/group-therapy-check-in-questions/ | — |
@@ -104,7 +104,7 @@ that exact decision point, without disparaging the build-it-yourself route.
 | Can I photocopy group therapy worksheets for my program? | covered | clinicians.html | checked 2026-11-11, AIO: Therapist Aid first (partly read); ChatGPT not checked |
 | Where can I buy printable group therapy worksheets for adults? | partial | /free-resources/ | — |
 | Is there a group therapy curriculum built for rolling admission? | covered | clinicians.html | checked 2026-11-11, AIO cites thoughtkindpress.com and Amazon first; ChatGPT cited others, then the site (memory-influenced) |
-| Group therapy curriculum for PHP programs | covered | clinicians.html | — |
+| Group therapy curriculum for PHP programs | covered | clinicians.html | checked 2026-11-17, AIO: Highlands first, site not cited (Amazon listing ranks organic); ChatGPT cited UCLA, Vanderbilt, Cima (memory-influenced) |
 | Do I need Volume 1 and Volume 2, or just one? | covered | clinicians.html | — |
 | Group therapy worksheets I am allowed to copy for clients | covered | clinicians.html | same FAQ as "Can I photocopy..." |
 | Free printable group therapy resources for facilitators | covered | /free-resources/ | — |
